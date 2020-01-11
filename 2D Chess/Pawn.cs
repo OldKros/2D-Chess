@@ -21,7 +21,7 @@ namespace _2D_Chess
 
             if (player.colour == Player.Colour.White)
             {
-                pb = new PictureBox
+                Pb = new PictureBox
                 {
                     Size = new Size(30, 30),
                     Location = new Point(currentCell.XLoc + 15, currentCell.YLoc + 15),
@@ -30,7 +30,7 @@ namespace _2D_Chess
             }
             else if (player.colour == Player.Colour.Black)
             {
-                pb = new PictureBox
+                Pb = new PictureBox
                 {
                     Size = new Size(30, 30),
                     Location = new Point(currentCell.XLoc + 15, currentCell.YLoc + 15),
@@ -43,7 +43,7 @@ namespace _2D_Chess
         {
             currentCell.RemoveChessPiece();
             destinationCell.PlaceChessPiece(this);
-            pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
+            Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
             currentCell = destinationCell;
         }
 

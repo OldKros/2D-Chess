@@ -9,7 +9,7 @@ namespace _2D_Chess
     class Player
     {
         public Colour colour;
-        public List<ChessPiece> chessPieces { get; set; }
+        public List<ChessPiece> ChessPieces { get; set; }
 
         public Player(Colour colour)
         {

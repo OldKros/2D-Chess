@@ -31,26 +31,26 @@ namespace _2D_Chess
         private void StartGame()
         {
             pieceSelected = false;
-            chessBoard = new ChessBoard(createChessBoard());
+            chessBoard = new ChessBoard(CreateChessBoard());
             playerWhite = new Player(Player.Colour.White);
             playerBlack = new Player(Player.Colour.Black);
-            playerWhite.chessPieces = chessBoard.SpawnWhiteChessPieces(playerWhite);
-            foreach (ChessPiece piece in playerWhite.chessPieces)
+            playerWhite.ChessPieces = chessBoard.SpawnWhiteChessPieces(playerWhite);
+            foreach (ChessPiece piece in playerWhite.ChessPieces)
             {
-                Controls.Add(piece.pb);
-                piece.pb.BringToFront();
-                piece.pb.Enabled = false;
+                Controls.Add(piece.Pb);
+                piece.Pb.BringToFront();
+                piece.Pb.Enabled = false;
             }
-            playerBlack.chessPieces = chessBoard.SpawnBlackChessPieces(playerBlack);
-            foreach (ChessPiece piece in playerBlack.chessPieces)
+            playerBlack.ChessPieces = chessBoard.SpawnBlackChessPieces(playerBlack);
+            foreach (ChessPiece piece in playerBlack.ChessPieces)
             {
-                Controls.Add(piece.pb);
-                piece.pb.BringToFront();
-                piece.pb.Enabled = false;
+                Controls.Add(piece.Pb);
+                piece.Pb.BringToFront();
+                piece.Pb.Enabled = false;
             }
         }
 
-        private List<List<BoardCell>> createChessBoard()
+        private List<List<BoardCell>> CreateChessBoard()
         {
             List<List<BoardCell>> boardCells = new List<List<BoardCell>>();
 
@@ -165,7 +165,7 @@ namespace _2D_Chess
         {
             Button btnClicked = (sender as Button);
 
-            foreach (List<BoardCell> cellList in chessBoard.boardCells)
+            foreach (List<BoardCell> cellList in chessBoard.BoardCells)
             {
                 foreach (BoardCell cell in cellList)
                 {

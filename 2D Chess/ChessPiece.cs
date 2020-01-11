@@ -8,7 +8,7 @@ namespace _2D_Chess
 {
     abstract class ChessPiece
     {
-        public System.Windows.Forms.PictureBox pb { get; set; }
+        public System.Windows.Forms.PictureBox Pb { get; set; }
 
         public abstract void Move(BoardCell destinationCell);
     }
