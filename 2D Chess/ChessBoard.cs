@@ -18,29 +18,33 @@ namespace _2D_Chess
 
         public List<ChessPiece> SpawnWhiteChessPieces(Player playerWhite)
         {
-            List<ChessPiece> pieces = new List<ChessPiece>();
-            pieces.Add(new Pawn(BoardCells[1][0], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][1], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][2], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][3], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][4], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][5], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][6], playerWhite));
-            pieces.Add(new Pawn(BoardCells[1][7], playerWhite));
+            List<ChessPiece> pieces = new List<ChessPiece>
+            {
+                new Pawn(BoardCells[1][0], playerWhite),
+                new Pawn(BoardCells[1][1], playerWhite),
+                new Pawn(BoardCells[1][2], playerWhite),
+                new Pawn(BoardCells[1][3], playerWhite),
+                new Pawn(BoardCells[1][4], playerWhite),
+                new Pawn(BoardCells[1][5], playerWhite),
+                new Pawn(BoardCells[1][6], playerWhite),
+                new Pawn(BoardCells[1][7], playerWhite)
+            };
             return pieces;
         }
 
         public List<ChessPiece> SpawnBlackChessPieces(Player playerBlack)
         {
-            List<ChessPiece> pieces = new List<ChessPiece>();
-            pieces.Add(new Pawn(BoardCells[6][0], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][1], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][2], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][3], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][4], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][5], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][6], playerBlack));
-            pieces.Add(new Pawn(BoardCells[6][7], playerBlack));
+            List<ChessPiece> pieces = new List<ChessPiece>
+            {
+                new Pawn(BoardCells[6][0], playerBlack),
+                new Pawn(BoardCells[6][1], playerBlack),
+                new Pawn(BoardCells[6][2], playerBlack),
+                new Pawn(BoardCells[6][3], playerBlack),
+                new Pawn(BoardCells[6][4], playerBlack),
+                new Pawn(BoardCells[6][5], playerBlack),
+                new Pawn(BoardCells[6][6], playerBlack),
+                new Pawn(BoardCells[6][7], playerBlack)
+            };
             return pieces;
         }
     }

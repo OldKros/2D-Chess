@@ -40,8 +40,6 @@ namespace _2D_Chess
             int spacesToMoveDown = destinationCell.YLoc - currentCell.YLoc;
             int spacesToMoveRight = currentCell.XLoc - destinationCell.XLoc;
             int spacesToMoveLeft = destinationCell.XLoc - currentCell.XLoc;
-            bool tookEnemy = destinationCell.Occupied ? Take(destinationCell) : false;
-
             if (Player.colour == Player.Colour.White)
             {
                 if (destinationCell.YLoc >= currentCell.YLoc && spacesToMoveUp <= 67 && spacesToMoveRight <= 67 && spacesToMoveLeft <= 67 && (spacesToMoveDown + spacesToMoveRight) < 67 && (spacesToMoveDown + spacesToMoveLeft) < 67)
