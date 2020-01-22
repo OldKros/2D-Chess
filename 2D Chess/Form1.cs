@@ -17,12 +17,13 @@ namespace _2D_Chess
         Player playerBlack;
         bool pieceSelected;
         ChessPiece chessPieceSelected;
+        
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void btnStartGame_Click(object sender, EventArgs e)
+        private void BtnStartGame_Click(object sender, EventArgs e)
         {
             StartGame();
             btnStartGame.Enabled = false;
@@ -165,13 +166,14 @@ namespace _2D_Chess
         {
             Button btnClicked = (sender as Button);
 
+            // We need to find the cell that was clicked by iterating through a list of lists of BoardCells
             foreach (List<BoardCell> cellList in chessBoard.BoardCells)
             {
                 foreach (BoardCell cell in cellList)
                 {
-                    if (!pieceSelected)
+                    if (btnClicked.Name == cell.Button.Name)
                     {
-                        if (btnClicked.Name == cell.Button.Name)
+                        if (!pieceSelected) 
                         {
                             if (cell.Occupied)
                             {
@@ -181,35 +183,33 @@ namespace _2D_Chess
                                 pieceSelected = true;
                             }
                         }
-                    }
-                    else
-                    {
-                        if (btnClicked.Name == cell.Button.Name)
+                        else // A chess piece is already selected
                         {
-                            if (!cell.Occupied)
+                            if (!cell.Occupied) // Target cell is not occupied so we are free to try to move in
                             {
-                                if (chessPieceSelected.Move(cell))
+                                if (chessPieceSelected.Move(cell)) // returns false is the piece cannot move to the target cell
                                 {
-                                    chessPieceSelected = null;
-                                    pieceSelected = false;
-                                    label1.Text = " ";
                                     label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
                                 }
+                                chessPieceSelected = null;
+                                pieceSelected = false;
+                                label1.Text = " ";
                             }
-                            else
+                            else // Target cell is occupied so we try to take the target in the cell
                             {
-                                if (chessPieceSelected.Take(cell))
+                                if (chessPieceSelected.Take(cell)) // Attempt to take the target in the cell, returns false if the colour of the pieces are the same.
                                 {
-                                    chessPieceSelected = null;
-                                    pieceSelected = false;
-                                    label1.Text = " ";
                                     label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
                                 }
+                                chessPieceSelected = null;
+                                pieceSelected = false;
+                                label1.Text = " ";
                             }
                         }
                     }
                 }
             }
         }
+
     }
 }

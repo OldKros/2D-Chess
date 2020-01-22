@@ -6,5 +6,4 @@ D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.csproj.GenerateResource.cach
 D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.exe
 D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.pdb
 D:\Projects\C#\2D Chess\2D Chess\obj\Debug\_2D_Chess.Form1.resources
-D:\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.exe.CodeAnalysisLog.xml
-D:\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.exe.lastcodeanalysissucceeded
+D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.csprojAssemblyReference.cache

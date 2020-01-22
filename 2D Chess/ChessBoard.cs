@@ -18,7 +18,7 @@ namespace _2D_Chess
 
         public List<ChessPiece> SpawnWhiteChessPieces(Player playerWhite)
         {
-            List<ChessPiece> pieces = new List<ChessPiece>
+            return new List<ChessPiece>
             {
                 new Pawn(BoardCells[1][0], playerWhite),
                 new Pawn(BoardCells[1][1], playerWhite),
@@ -29,12 +29,11 @@ namespace _2D_Chess
                 new Pawn(BoardCells[1][6], playerWhite),
                 new Pawn(BoardCells[1][7], playerWhite)
             };
-            return pieces;
         }
 
         public List<ChessPiece> SpawnBlackChessPieces(Player playerBlack)
         {
-            List<ChessPiece> pieces = new List<ChessPiece>
+            return new List<ChessPiece>
             {
                 new Pawn(BoardCells[6][0], playerBlack),
                 new Pawn(BoardCells[6][1], playerBlack),
@@ -45,7 +44,6 @@ namespace _2D_Chess
                 new Pawn(BoardCells[6][6], playerBlack),
                 new Pawn(BoardCells[6][7], playerBlack)
             };
-            return pieces;
         }
     }
 }
