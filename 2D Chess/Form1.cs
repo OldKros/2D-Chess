@@ -177,6 +177,7 @@ namespace _2D_Chess
                             {
                                 chessPieceSelected = cell.ChessPiece;
                                 label1.Text = btnClicked.Name;
+                                label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
                                 pieceSelected = true;
                             }
                         }
@@ -187,10 +188,23 @@ namespace _2D_Chess
                         {
                             if (!cell.Occupied)
                             {
-                                chessPieceSelected.Move(cell);
-                                chessPieceSelected = null;
-                                pieceSelected = false;
-                                label1.Text = " ";
+                                if (chessPieceSelected.Move(cell))
+                                {
+                                    chessPieceSelected = null;
+                                    pieceSelected = false;
+                                    label1.Text = " ";
+                                    label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
+                                }
+                            }
+                            else
+                            {
+                                if (chessPieceSelected.Take(cell))
+                                {
+                                    chessPieceSelected = null;
+                                    pieceSelected = false;
+                                    label1.Text = " ";
+                                    label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
+                                }
                             }
                         }
                     }

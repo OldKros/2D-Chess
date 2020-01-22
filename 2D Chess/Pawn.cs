@@ -1,23 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Drawing;
 using System.Windows.Forms;
-using System.Drawing;
 
 namespace _2D_Chess
 {
     class Pawn : ChessPiece
     {
         BoardCell currentCell;
-        Player player;
-        
+        public override Player Player { get; }
+
         public Pawn(BoardCell cell, Player player)
         {
             this.currentCell = cell;
             currentCell.PlaceChessPiece(this);
-            this.player = player;
+            this.Player = player;
 
             if (player.colour == Player.Colour.White)
             {
@@ -39,14 +34,76 @@ namespace _2D_Chess
             }
         }
 
-        public override void Move(BoardCell destinationCell)
+        public override bool Move(BoardCell destinationCell)
         {
-            currentCell.RemoveChessPiece();
-            destinationCell.PlaceChessPiece(this);
-            Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
-            currentCell = destinationCell;
+            int spacesToMoveUp = currentCell.YLoc - destinationCell.YLoc;
+            int spacesToMoveDown = destinationCell.YLoc - currentCell.YLoc;
+            int spacesToMoveRight = currentCell.XLoc - destinationCell.XLoc;
+            int spacesToMoveLeft = destinationCell.XLoc - currentCell.XLoc;
+            bool tookEnemy = destinationCell.Occupied ? Take(destinationCell) : false;
+
+            if (Player.colour == Player.Colour.White)
+            {
+                if (destinationCell.YLoc >= currentCell.YLoc && spacesToMoveUp <= 67 && spacesToMoveRight <= 67 && spacesToMoveLeft <= 67 && (spacesToMoveDown + spacesToMoveRight) < 67 && (spacesToMoveDown + spacesToMoveLeft) < 67)
+                {
+                    currentCell.RemoveChessPiece();
+                    destinationCell.PlaceChessPiece(this);
+                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
+                    currentCell = destinationCell;
+                    return true;
+                }
+                return false;
+            }
+            else // Player is black
+            {
+                if (destinationCell.YLoc <= currentCell.YLoc && spacesToMoveDown <= 67 && spacesToMoveLeft <= 67 && spacesToMoveRight <= 67 && (spacesToMoveUp + spacesToMoveRight) < 67 && (spacesToMoveUp + spacesToMoveLeft) < 67)
+                {
+                    currentCell.RemoveChessPiece();
+                    destinationCell.PlaceChessPiece(this);
+                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
+                    currentCell = destinationCell;
+                    return true;
+                }
+                return false;
+            }
         }
 
-        
+        public override bool Take(BoardCell destinationCell)
+        {
+            int spacesToMoveUp = currentCell.YLoc - destinationCell.YLoc;
+            int spacesToMoveDown = destinationCell.YLoc - currentCell.YLoc;
+            int spacesToMoveRight = currentCell.XLoc - destinationCell.XLoc;
+            int spacesToMoveLeft = destinationCell.XLoc - currentCell.XLoc;
+
+            if (Player.colour == Player.Colour.White && destinationCell.ChessPiece.Player.colour == Player.Colour.Black)
+            {
+                if (destinationCell.YLoc >= currentCell.YLoc && spacesToMoveUp <= 67 && spacesToMoveRight <= 67 && spacesToMoveLeft <= 67)
+                {
+                    destinationCell.ChessPiece.Pb.Visible = false;
+                    destinationCell.RemoveChessPiece();
+                    currentCell.RemoveChessPiece();
+                    destinationCell.PlaceChessPiece(this);
+                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
+                    currentCell = destinationCell;
+                    return true;
+                }
+                return false;
+            }
+            else if (Player.colour == Player.Colour.Black && destinationCell.ChessPiece.Player.colour == Player.Colour.White)
+            {
+                if (destinationCell.YLoc <= currentCell.YLoc && spacesToMoveDown <= 67 && spacesToMoveLeft <= 67 && spacesToMoveRight <= 67)
+                {
+                    destinationCell.ChessPiece.Pb.Visible = false;
+                    destinationCell.RemoveChessPiece();
+                    currentCell.RemoveChessPiece();
+                    destinationCell.PlaceChessPiece(this);
+                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
+                    currentCell = destinationCell;
+                    return true;
+                }
+                return false;
+            }
+            return false;
+        }
     }
 }

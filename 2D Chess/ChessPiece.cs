@@ -9,7 +9,9 @@ namespace _2D_Chess
     abstract class ChessPiece
     {
         public System.Windows.Forms.PictureBox Pb { get; set; }
+        public abstract Player Player { get; }
 
-        public abstract void Move(BoardCell destinationCell);
+        public abstract bool Move(BoardCell destinationCell);
+        public abstract bool Take(BoardCell destinationCell);
     }
 }
