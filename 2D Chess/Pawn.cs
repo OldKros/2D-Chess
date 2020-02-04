@@ -94,7 +94,7 @@ namespace _2D_Chess
                 }
                 return false;
             }
-            else if (Player.colour is Player.Colour.Black)
+            else // Player is Black
             {
                 if (destinationCell.YLoc <= currentCell.YLoc && spacesToMoveUp <= 67 && spacesToMoveRight <= 67 && spacesToMoveLeft <= 67)
                 {
@@ -108,7 +108,7 @@ namespace _2D_Chess
                 }
                 return false;
             }
-            return false;
         }
+
     }
 }
