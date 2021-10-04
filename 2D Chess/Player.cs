@@ -6,20 +6,15 @@ using System.Threading.Tasks;
 
 namespace _2D_Chess
 {
-    class Player
+    public class Player
     {
-        public Colour colour;
+        public Game.PlayerColour Colour;
         public List<ChessPiece> ChessPieces { get; set; }
 
-        public Player(Colour colour)
+        public Player(Game.PlayerColour colour)
         {
-            this.colour = colour;
+            this.Colour = colour;
         }
 
-        public enum Colour
-        {
-            White,
-            Black
-        }
     }
 }

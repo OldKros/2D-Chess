@@ -1,22 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace _2D_Chess
 {
     public partial class Form1 : Form
     {
-        ChessBoard chessBoard;
-        Player playerWhite;
-        Player playerBlack;
         bool pieceSelected;
-        ChessPiece chessPieceSelected;
+        bool logShown = false;
+        ChessPiece selectedChessPiece;
         
         public Form1()
         {
@@ -25,191 +19,194 @@ namespace _2D_Chess
 
         private void BtnStartGame_Click(object sender, EventArgs e)
         {
-            StartGame();
+            Logger.logForm = new LogForm();
+            CreateChessBoard();
+            Game.StartGame();
             btnStartGame.Enabled = false;
-        }
-
-        private void StartGame()
-        {
             pieceSelected = false;
-            chessBoard = new ChessBoard(CreateChessBoard());
-            playerWhite = new Player(Player.Colour.White);
-            playerBlack = new Player(Player.Colour.Black);
-            playerWhite.ChessPieces = chessBoard.SpawnWhiteChessPieces(playerWhite);
-            foreach (ChessPiece piece in playerWhite.ChessPieces)
-            {
-                Controls.Add(piece.Pb);
-                piece.Pb.BringToFront();
-                piece.Pb.Enabled = false;
-            }
-            playerBlack.ChessPieces = chessBoard.SpawnBlackChessPieces(playerBlack);
-            foreach (ChessPiece piece in playerBlack.ChessPieces)
-            {
-                Controls.Add(piece.Pb);
-                piece.Pb.BringToFront();
-                piece.Pb.Enabled = false;
-            }
-        }
+            lblCurrentTurn.Visible = true;
 
-        private List<List<BoardCell>> CreateChessBoard()
-        {
-            List<List<BoardCell>> boardCells = new List<List<BoardCell>>();
-
-            List<BoardCell> y0Cells = new List<BoardCell>
-            {
-                new BoardCell(pos00),
-                new BoardCell(pos10),
-                new BoardCell(pos20),
-                new BoardCell(pos30),
-                new BoardCell(pos40),
-                new BoardCell(pos50),
-                new BoardCell(pos60),
-                new BoardCell(pos70)
-            };
-            boardCells.Add(y0Cells);
-
-            List<BoardCell> y1Cells = new List<BoardCell>
-            {
-                new BoardCell(pos01),
-                new BoardCell(pos11),
-                new BoardCell(pos21),
-                new BoardCell(pos31),
-                new BoardCell(pos41),
-                new BoardCell(pos51),
-                new BoardCell(pos61),
-                new BoardCell(pos71)
-            };
-            boardCells.Add(y1Cells);
-
-            List<BoardCell> y2Cells = new List<BoardCell>
-            {
-                new BoardCell(pos02),
-                new BoardCell(pos12),
-                new BoardCell(pos22),
-                new BoardCell(pos32),
-                new BoardCell(pos42),
-                new BoardCell(pos52),
-                new BoardCell(pos62),
-                new BoardCell(pos72)
-            };
-            boardCells.Add(y2Cells);
-
-            List<BoardCell> y3Cells = new List<BoardCell>
-            {
-                new BoardCell(pos03),
-                new BoardCell(pos13),
-                new BoardCell(pos23),
-                new BoardCell(pos33),
-                new BoardCell(pos43),
-                new BoardCell(pos53),
-                new BoardCell(pos63),
-                new BoardCell(pos73)
-            };
-            boardCells.Add(y3Cells);
-
-            List<BoardCell> y4Cells = new List<BoardCell>
-            {
-                new BoardCell(pos04),
-                new BoardCell(pos14),
-                new BoardCell(pos24),
-                new BoardCell(pos34),
-                new BoardCell(pos44),
-                new BoardCell(pos54),
-                new BoardCell(pos64),
-                new BoardCell(pos74)
-            };
-            boardCells.Add(y4Cells);
-
-            List<BoardCell> y5Cells = new List<BoardCell>
-            {
-                new BoardCell(pos05),
-                new BoardCell(pos15),
-                new BoardCell(pos25),
-                new BoardCell(pos35),
-                new BoardCell(pos45),
-                new BoardCell(pos55),
-                new BoardCell(pos65),
-                new BoardCell(pos75)
-            };
-            boardCells.Add(y5Cells);
-
-            List<BoardCell> y6Cells = new List<BoardCell>
-            {
-                new BoardCell(pos06),
-                new BoardCell(pos16),
-                new BoardCell(pos26),
-                new BoardCell(pos36),
-                new BoardCell(pos46),
-                new BoardCell(pos56),
-                new BoardCell(pos66),
-                new BoardCell(pos76)
-            };
-            boardCells.Add(y6Cells);
-
-            List<BoardCell> y7Cells = new List<BoardCell>
-            {
-                new BoardCell(pos07),
-                new BoardCell(pos17),
-                new BoardCell(pos27),
-                new BoardCell(pos37),
-                new BoardCell(pos47),
-                new BoardCell(pos57),
-                new BoardCell(pos67),
-                new BoardCell(pos77)
-            };
-            boardCells.Add(y7Cells);
-
-            return boardCells;
+            //foreach (ChessPiece piece in Game.PlayerWhite.ChessPieces)
+            //{
+            //    Controls.Add(piece.Pb);
+            //    piece.Pb.BringToFront();
+            //    piece.Pb.Enabled = false;
+            //}
+            //foreach (ChessPiece piece in Game.PlayerBlack.ChessPieces)
+            //{
+            //    Controls.Add(piece.Pb);
+            //    piece.Pb.BringToFront();
+            //    piece.Pb.Enabled = false;
+            //}
         }
 
         private void BoardCell_Click(object sender, EventArgs e)
         {
             Button btnClicked = (sender as Button);
 
+            if (!Game.GameStarted) { return; }
+
             // We need to find the cell that was clicked by iterating through a list of lists of BoardCells
-            foreach (List<BoardCell> cellList in chessBoard.BoardCells)
+            foreach (List<BoardCell> cellList in Game.ChessBoard.BoardCells)
             {
                 foreach (BoardCell cell in cellList)
                 {
-                    if (btnClicked.Name == cell.Button.Name)
+                    if (btnClicked.Name != cell.Button.Name)
                     {
-                        if (!pieceSelected) 
+                        continue;
+                    }
+
+                    if (!pieceSelected)
+                    { 
+                        if (cell.Occupied)
                         {
-                            if (cell.Occupied)
+                            if (cell.ChessPiece.Player == Game.PlayerTurn)
                             {
-                                chessPieceSelected = cell.ChessPiece;
-                                label1.Text = btnClicked.Name;
-                                label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
+                                selectedChessPiece = cell.ChessPiece;
+                                Logger.Log($"Position {btnClicked.Name} selected");
+                                Logger.Log($"{cell.ChessPiece.Player.Colour} Player {cell.ChessPiece} Selected");
                                 pieceSelected = true;
                             }
+                            else
+                            {
+                                Logger.Log($"Position {btnClicked.Name} selected");
+                                Logger.Log($"It is not {cell.ChessPiece.Player.Colour} Player's turn");
+                            }
                         }
-                        else // A chess piece is already selected
+                        else
                         {
-                            if (!cell.Occupied) // Target cell is not occupied so we are free to try to move in
-                            {
-                                if (chessPieceSelected.Move(cell)) // returns false is the piece cannot move to the target cell
-                                {
-                                    label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
-                                }
-                                chessPieceSelected = null;
-                                pieceSelected = false;
-                                label1.Text = " ";
-                            }
-                            else // Target cell is occupied so we try to take the target in the cell
-                            {
-                                if (chessPieceSelected.Take(cell)) // Attempt to take the target in the cell, returns false if the colour of the pieces are the same.
-                                {
-                                    label2.Text = $"{btnClicked.Location.X}, {btnClicked.Location.Y}";
-                                }
-                                chessPieceSelected = null;
-                                pieceSelected = false;
-                                label1.Text = " ";
-                            }
+                            Logger.Log($"Position {btnClicked.Name} selected but was empty");
                         }
                     }
+                    else // A chess piece is already selected
+                    {
+                        if (cell.Occupied) // we have clicked a cell with a piece on
+                        {
+                            if (cell.ChessPiece.Player == Game.PlayerTurn) // if the piece selected is ours we can swap to it
+                            {
+                                Logger.Log($"{selectedChessPiece} was selected but {cell.ChessPiece} was clicked so swapping selected piece to {cell.ChessPiece}");
+                                selectedChessPiece = cell.ChessPiece;
+                                Logger.Log($"Position {btnClicked.Name} selected");
+                                Logger.Log($"{cell.ChessPiece.Player.Colour} Player {cell.ChessPiece} Selected");
+                                return;
+                            }
+                        }
+
+                        if (selectedChessPiece.Move(cell)) // returns false is the piece cannot move to the target cell or take the targetted piece
+                        {
+                            Logger.Log($"{selectedChessPiece.ID} moved to {btnClicked.Name}");
+                            selectedChessPiece = null;
+                            pieceSelected = false;
+                            lblCurrentTurn.Text = $"Current Turn: {Game.NextTurn().Colour}";
+                        }
+                    }
+                    // once we have found the cell, we dont need to continue
+                    return;
+                    
                 }
             }
         }
 
+        private void btnShowHideLog_Click(object sender, EventArgs e)
+        {
+            if (!logShown)
+            {
+                ShowLog();
+            }
+            else
+            {
+                HideLog();
+            }
+        }
+
+        private void ShowLog()
+        {
+            try
+            {
+                Logger.logForm.Toggle(true);
+                btnShowHideLog.Text = "Hide Log";
+            }
+            catch (NullReferenceException ex)
+            {
+                Logger.logForm = new LogForm();
+                Logger.Error(ex.Message);
+            }
+            catch (ObjectDisposedException ex)
+            {
+                Logger.logForm = new LogForm();
+                Logger.Error(ex.Message);
+            }
+            finally
+            {
+                Logger.logForm.Toggle(true);
+                btnShowHideLog.Text = "Hide Log";
+            }
+            logShown = true;
+        }
+
+        private void HideLog()
+        {
+            try
+            {
+                Logger.logForm.Toggle(false);
+                btnShowHideLog.Text = "Show Log";
+            }
+            catch (NullReferenceException ex)
+            {
+                Logger.logForm = new LogForm();
+                Logger.Error(ex.Message);
+            }
+            catch (ObjectDisposedException ex)
+            {
+                Logger.logForm = new LogForm();
+                Logger.Error(ex.Message);
+            }
+            finally
+            {
+                Logger.logForm.Toggle(false);
+                btnShowHideLog.Text = "Show Log";
+            }
+            logShown = false;
+        }
+
+        private void CreateChessBoard()
+        {
+            Game.CreateChessBoard(new List<List<Button>> {
+
+                new List<Button>
+                {
+                    posA0, posA1, posA2, posA3, posA4, posA5, posA6, posA7
+                },
+
+                new List<Button>
+                {
+                    posB0, posB1, posB2, posB3, posB4, posB5, posB6, posB7
+                },
+                new List<Button>
+                {
+                    posC0, posC1, posC2, posC3, posC4, posC5, posC6, posC7
+                },
+                new List<Button>
+                {
+                    posD0, posD1, posD2, posD3, posD4, posD5, posD6, posD7
+                },
+                new List<Button>
+                {
+                    posE0, posE1, posE2, posE3, posE4, posE5, posE6, posE7
+                },
+                new List<Button>
+                {
+                    posF0, posF1, posF2, posF3, posF4, posF5, posF6, posF7
+                },
+                new List<Button>
+                {
+                    posG0, posG1, posG2, posG3, posG4, posG5, posG6, posG7
+                },
+                new List<Button>
+                {
+                    posH0, posH1, posH2, posH3, posH4, posH5, posH6, posH7
+                },
+            });
+        }
     }
 }

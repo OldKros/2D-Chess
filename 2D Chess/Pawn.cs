@@ -1,70 +1,71 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
 
 namespace _2D_Chess
 {
     class Pawn : ChessPiece
     {
-        BoardCell currentCell;
-        public override Player Player { get; }
+        private bool FirstMove = true;
 
-        public Pawn(BoardCell cell, Player player)
+        public Pawn(BoardCell cell, Player player, string id)
+        : base(cell, player, id)
         {
-            currentCell = cell;
-            currentCell.PlaceChessPiece(this);
-            Player = player;
+            if (player.Colour == Game.PlayerColour.White)
+            {
+                PieceImage = Properties.Resources.WhitePawn;
+            }
+            else if (player.Colour == Game.PlayerColour.Black)
+            {
+                PieceImage = Properties.Resources.BlackPawn;
+            }
 
-            if (player.colour == Player.Colour.White)
-            {
-                Pb = new PictureBox
-                {
-                    Size = new Size(30, 30),
-                    Location = new Point(currentCell.XLoc + 15, currentCell.YLoc + 15),
-                    BackColor = Color.Blue
-                };
-            }
-            else if (player.colour == Player.Colour.Black)
-            {
-                Pb = new PictureBox
-                {
-                    Size = new Size(30, 30),
-                    Location = new Point(currentCell.XLoc + 15, currentCell.YLoc + 15),
-                    BackColor = Color.Red
-                };
-            }
+            CurrentCell.Button.BackgroundImage = PieceImage;
         }
 
         public override bool Move(BoardCell destinationCell)
         {
-            int spacesToMoveUp = currentCell.YLoc - destinationCell.YLoc;
-            int spacesToMoveDown = destinationCell.YLoc - currentCell.YLoc;
-            int spacesToMoveLeft = currentCell.XLoc - destinationCell.XLoc;
-            int spacesToMoveRight = destinationCell.XLoc - currentCell.XLoc;
+            int cellsToMoveUp = CurrentCell.YLoc - destinationCell.YLoc;
+            int cellsToMoveDown = destinationCell.YLoc - CurrentCell.YLoc;
+            int cellsToMoveLeft = CurrentCell.XLoc - destinationCell.XLoc;
+            int cellsToMoveRight = destinationCell.XLoc - CurrentCell.XLoc;
+            // can only move two spaces down on the first move.
+            int maxCellsToMove = FirstMove ? ChessBoard.CellSpace * 2 : ChessBoard.CellSpace;
 
-            if (Player.colour == Player.Colour.White)
+            if (IsPathToDestObstructed(destinationCell))
+                return false;
+
+            if (destinationCell.Occupied)
             {
-                // The difference between cells is 66px so this makes sure the pawn can only move left one cell, right one cell and down one cell
-                if (destinationCell.YLoc >= currentCell.YLoc && spacesToMoveDown <= 67 && spacesToMoveLeft <= 67 && spacesToMoveRight <= 67 && 
-                    (spacesToMoveDown + spacesToMoveLeft) < 67 && (spacesToMoveDown + spacesToMoveRight) < 67)
+                return Take(destinationCell);
+            }
+
+            if (Player.Colour == Game.PlayerColour.White)
+            {
+                if ((cellsToMoveDown > 0 && cellsToMoveDown <= maxCellsToMove
+                    && (cellsToMoveLeft == 0 && cellsToMoveRight == 0))
+                    || (cellsToMoveDown == 0 && cellsToMoveLeft == ChessBoard.CellSpace) 
+                    || (cellsToMoveDown == 0 && cellsToMoveRight == ChessBoard.CellSpace))
                 {
-                    currentCell.RemoveChessPiece(); // Remove this piece from this cell
+                    CurrentCell.RemoveChessPiece(); // Remove this piece from this cell
                     destinationCell.PlaceChessPiece(this); // Add this piece to dest cell
-                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
-                    currentCell = destinationCell;
+                    CurrentCell = destinationCell;
+                    FirstMove = false;
                     return true;
                 }
                 return false;
             }
             else // Player is black
             {
-                // The difference between cells is 66px so this makes sure the pawn can only move left one cell, right one cell and up one cell
-                if (destinationCell.YLoc <= currentCell.YLoc && spacesToMoveUp <= 67 && spacesToMoveRight <= 67 && spacesToMoveLeft <= 67 && 
-                    (spacesToMoveUp + spacesToMoveLeft) < 67 && (spacesToMoveUp + spacesToMoveRight) < 67)
+                if ((cellsToMoveUp > 0 && cellsToMoveUp <= maxCellsToMove
+                    && (cellsToMoveLeft == 0 && cellsToMoveRight == 0))
+                    || (cellsToMoveDown == 0 && cellsToMoveLeft == ChessBoard.CellSpace)
+                    || (cellsToMoveDown == 0 && cellsToMoveRight == ChessBoard.CellSpace))
                 {
-                    currentCell.RemoveChessPiece(); // Remove this piece from this cell
+                    CurrentCell.RemoveChessPiece(); // Remove this piece from this cell
                     destinationCell.PlaceChessPiece(this); // Add this piece to dest cell
-                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
-                    currentCell = destinationCell;
+                    CurrentCell = destinationCell;
+                    FirstMove = false;
                     return true;
                 }
                 return false;
@@ -73,42 +74,43 @@ namespace _2D_Chess
 
         public override bool Take(BoardCell destinationCell)
         {
-            if (Player.colour == destinationCell.ChessPiece.Player.colour) { return false; } // Make sure we aren't trying to take ourselves.
+            if (Player.Colour == destinationCell.ChessPiece.Player.Colour) { return false; } // Make sure we aren't trying to take ourselves.
 
-            int spacesToMoveUp = currentCell.YLoc - destinationCell.YLoc;
-            int spacesToMoveDown = destinationCell.YLoc - currentCell.YLoc;
-            int spacesToMoveLeft = currentCell.XLoc - destinationCell.XLoc;
-            int spacesToMoveRight = destinationCell.XLoc - currentCell.XLoc;
+            int pixelsToMoveUp = CurrentCell.YLoc - destinationCell.YLoc;
+            int pixelsToMoveDown = destinationCell.YLoc - CurrentCell.YLoc;
+            int pixelsToMoveLeft = CurrentCell.XLoc - destinationCell.XLoc;
+            int pixelsToMoveRight = destinationCell.XLoc - CurrentCell.XLoc;
 
-            if (Player.colour is Player.Colour.White)
+            if (Player.Colour is Game.PlayerColour.White)
             {
-                if (destinationCell.YLoc >= currentCell.YLoc && spacesToMoveDown <= 67 && spacesToMoveLeft <= 67 && spacesToMoveRight <= 67)
+                if (pixelsToMoveDown == ChessBoard.CellSpace 
+                    && (pixelsToMoveRight > 0 && pixelsToMoveRight <= ChessBoard.CellSpace 
+                    || pixelsToMoveLeft > 0 && pixelsToMoveLeft <= ChessBoard.CellSpace ))
                 {
-                    destinationCell.ChessPiece.Pb.Visible = false; // makes the PictureBox invisible
                     destinationCell.RemoveChessPiece(); // Remove the piece from the dest cell. This and the previous line should make the peice being took unselectable and unseeable.
-                    currentCell.RemoveChessPiece(); // Remove this piece from this cell
+                    CurrentCell.RemoveChessPiece(); // Remove this piece from this cell
                     destinationCell.PlaceChessPiece(this); // Add this piece to dest cell
-                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
-                    currentCell = destinationCell;
+                    CurrentCell = destinationCell;
                     return true;
                 }
                 return false;
             }
             else // Player is Black
             {
-                if (destinationCell.YLoc <= currentCell.YLoc && spacesToMoveUp <= 67 && spacesToMoveRight <= 67 && spacesToMoveLeft <= 67)
+                if (pixelsToMoveUp == ChessBoard.CellSpace 
+                    && (pixelsToMoveRight > 0 && pixelsToMoveRight <= ChessBoard.CellSpace
+                    || pixelsToMoveLeft > 0 && pixelsToMoveLeft <= ChessBoard.CellSpace))
                 {
-                    destinationCell.ChessPiece.Pb.Visible = false; // makes the PictureBox invisible
                     destinationCell.RemoveChessPiece(); // Remove the piece from the dest cell. This and the previous line should make the peice being took unselectable and unseeable.
-                    currentCell.RemoveChessPiece(); // Remove this piece from this cell
+                    CurrentCell.RemoveChessPiece(); // Remove this piece from this cell
                     destinationCell.PlaceChessPiece(this); // Add this piece to dest cell
-                    Pb.Location = new Point(destinationCell.XLoc + 15, destinationCell.YLoc + 15);
-                    currentCell = destinationCell;
+                    CurrentCell = destinationCell;
                     return true;
                 }
                 return false;
             }
         }
 
+        
     }
 }

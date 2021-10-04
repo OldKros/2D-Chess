@@ -7,3 +7,22 @@ D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.exe
 D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.pdb
 D:\Projects\C#\2D Chess\2D Chess\obj\Debug\_2D_Chess.Form1.resources
 D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.csprojAssemblyReference.cache
+D:\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.exe.manifest
+D:\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.application
+D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.exe.manifest
+D:\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.application
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.csproj.AssemblyReference.cache
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\_2D_Chess.Form1.resources
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\_2D_Chess.Properties.Resources.resources
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.csproj.GenerateResource.cache
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.csproj.CoreCompileInputs.cache
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.exe
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.pdb
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.exe.config
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.exe.manifest
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.application
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.exe
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\bin\Debug\2D Chess.pdb
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.exe.manifest
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\2D Chess.application
+C:\Users\krost\Projects\C#\2D Chess\2D Chess\obj\Debug\_2D_Chess.LogForm.resources

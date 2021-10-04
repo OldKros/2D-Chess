@@ -28,70 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pos00 = new System.Windows.Forms.Button();
-            this.pos10 = new System.Windows.Forms.Button();
-            this.pos30 = new System.Windows.Forms.Button();
-            this.pos20 = new System.Windows.Forms.Button();
-            this.pos70 = new System.Windows.Forms.Button();
-            this.pos60 = new System.Windows.Forms.Button();
-            this.pos50 = new System.Windows.Forms.Button();
-            this.pos40 = new System.Windows.Forms.Button();
-            this.pos71 = new System.Windows.Forms.Button();
-            this.pos61 = new System.Windows.Forms.Button();
-            this.pos51 = new System.Windows.Forms.Button();
-            this.pos41 = new System.Windows.Forms.Button();
-            this.pos31 = new System.Windows.Forms.Button();
-            this.pos21 = new System.Windows.Forms.Button();
-            this.pos11 = new System.Windows.Forms.Button();
-            this.pos01 = new System.Windows.Forms.Button();
-            this.pos72 = new System.Windows.Forms.Button();
-            this.pos62 = new System.Windows.Forms.Button();
-            this.pos52 = new System.Windows.Forms.Button();
-            this.pos42 = new System.Windows.Forms.Button();
-            this.pos32 = new System.Windows.Forms.Button();
-            this.pos22 = new System.Windows.Forms.Button();
-            this.pos12 = new System.Windows.Forms.Button();
-            this.pos02 = new System.Windows.Forms.Button();
-            this.pos73 = new System.Windows.Forms.Button();
-            this.pos63 = new System.Windows.Forms.Button();
-            this.pos53 = new System.Windows.Forms.Button();
-            this.pos43 = new System.Windows.Forms.Button();
-            this.pos33 = new System.Windows.Forms.Button();
-            this.pos23 = new System.Windows.Forms.Button();
-            this.pos13 = new System.Windows.Forms.Button();
-            this.pos03 = new System.Windows.Forms.Button();
-            this.pos74 = new System.Windows.Forms.Button();
-            this.pos64 = new System.Windows.Forms.Button();
-            this.pos54 = new System.Windows.Forms.Button();
-            this.pos44 = new System.Windows.Forms.Button();
-            this.pos34 = new System.Windows.Forms.Button();
-            this.pos24 = new System.Windows.Forms.Button();
-            this.pos14 = new System.Windows.Forms.Button();
-            this.pos04 = new System.Windows.Forms.Button();
-            this.pos75 = new System.Windows.Forms.Button();
-            this.pos65 = new System.Windows.Forms.Button();
-            this.pos55 = new System.Windows.Forms.Button();
-            this.pos45 = new System.Windows.Forms.Button();
-            this.pos35 = new System.Windows.Forms.Button();
-            this.pos25 = new System.Windows.Forms.Button();
-            this.pos15 = new System.Windows.Forms.Button();
-            this.pos05 = new System.Windows.Forms.Button();
-            this.pos76 = new System.Windows.Forms.Button();
-            this.pos66 = new System.Windows.Forms.Button();
-            this.pos56 = new System.Windows.Forms.Button();
-            this.pos46 = new System.Windows.Forms.Button();
-            this.pos36 = new System.Windows.Forms.Button();
-            this.pos26 = new System.Windows.Forms.Button();
-            this.pos16 = new System.Windows.Forms.Button();
-            this.pos06 = new System.Windows.Forms.Button();
-            this.pos77 = new System.Windows.Forms.Button();
-            this.pos67 = new System.Windows.Forms.Button();
-            this.pos57 = new System.Windows.Forms.Button();
-            this.pos47 = new System.Windows.Forms.Button();
-            this.pos37 = new System.Windows.Forms.Button();
-            this.pos27 = new System.Windows.Forms.Button();
-            this.pos17 = new System.Windows.Forms.Button();
-            this.pos07 = new System.Windows.Forms.Button();
+            this.posA0 = new System.Windows.Forms.Button();
+            this.posB0 = new System.Windows.Forms.Button();
+            this.posD0 = new System.Windows.Forms.Button();
+            this.posC0 = new System.Windows.Forms.Button();
+            this.posH0 = new System.Windows.Forms.Button();
+            this.posG0 = new System.Windows.Forms.Button();
+            this.posF0 = new System.Windows.Forms.Button();
+            this.posE0 = new System.Windows.Forms.Button();
+            this.posH1 = new System.Windows.Forms.Button();
+            this.posG1 = new System.Windows.Forms.Button();
+            this.posF1 = new System.Windows.Forms.Button();
+            this.posE1 = new System.Windows.Forms.Button();
+            this.posD1 = new System.Windows.Forms.Button();
+            this.posC1 = new System.Windows.Forms.Button();
+            this.posB1 = new System.Windows.Forms.Button();
+            this.posA1 = new System.Windows.Forms.Button();
+            this.posH2 = new System.Windows.Forms.Button();
+            this.posG2 = new System.Windows.Forms.Button();
+            this.posF2 = new System.Windows.Forms.Button();
+            this.posE2 = new System.Windows.Forms.Button();
+            this.posD2 = new System.Windows.Forms.Button();
+            this.posC2 = new System.Windows.Forms.Button();
+            this.posB2 = new System.Windows.Forms.Button();
+            this.posA2 = new System.Windows.Forms.Button();
+            this.posH3 = new System.Windows.Forms.Button();
+            this.posG3 = new System.Windows.Forms.Button();
+            this.posF3 = new System.Windows.Forms.Button();
+            this.posE3 = new System.Windows.Forms.Button();
+            this.posD3 = new System.Windows.Forms.Button();
+            this.posC3 = new System.Windows.Forms.Button();
+            this.posB3 = new System.Windows.Forms.Button();
+            this.posA3 = new System.Windows.Forms.Button();
+            this.posH4 = new System.Windows.Forms.Button();
+            this.posG4 = new System.Windows.Forms.Button();
+            this.posF4 = new System.Windows.Forms.Button();
+            this.posE4 = new System.Windows.Forms.Button();
+            this.posD4 = new System.Windows.Forms.Button();
+            this.posC4 = new System.Windows.Forms.Button();
+            this.posB4 = new System.Windows.Forms.Button();
+            this.posA4 = new System.Windows.Forms.Button();
+            this.posH5 = new System.Windows.Forms.Button();
+            this.posG5 = new System.Windows.Forms.Button();
+            this.posF5 = new System.Windows.Forms.Button();
+            this.posE5 = new System.Windows.Forms.Button();
+            this.posD5 = new System.Windows.Forms.Button();
+            this.posC5 = new System.Windows.Forms.Button();
+            this.posB5 = new System.Windows.Forms.Button();
+            this.posA5 = new System.Windows.Forms.Button();
+            this.posH6 = new System.Windows.Forms.Button();
+            this.posG6 = new System.Windows.Forms.Button();
+            this.posF6 = new System.Windows.Forms.Button();
+            this.posE6 = new System.Windows.Forms.Button();
+            this.posD6 = new System.Windows.Forms.Button();
+            this.posC6 = new System.Windows.Forms.Button();
+            this.posB6 = new System.Windows.Forms.Button();
+            this.posA6 = new System.Windows.Forms.Button();
+            this.posH7 = new System.Windows.Forms.Button();
+            this.posG7 = new System.Windows.Forms.Button();
+            this.posF7 = new System.Windows.Forms.Button();
+            this.posE7 = new System.Windows.Forms.Button();
+            this.posD7 = new System.Windows.Forms.Button();
+            this.posC7 = new System.Windows.Forms.Button();
+            this.posB7 = new System.Windows.Forms.Button();
+            this.posA7 = new System.Windows.Forms.Button();
             this.lblX0 = new System.Windows.Forms.Label();
             this.lblX1 = new System.Windows.Forms.Label();
             this.lblX3 = new System.Windows.Forms.Label();
@@ -109,856 +109,949 @@
             this.lblY1 = new System.Windows.Forms.Label();
             this.lblY0 = new System.Windows.Forms.Label();
             this.btnStartGame = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.btnShowHideLog = new System.Windows.Forms.Button();
+            this.lblCurrentTurn = new System.Windows.Forms.Label();
+            this.whitePlayerGroup = new System.Windows.Forms.GroupBox();
+            this.lvWhite = new System.Windows.Forms.ListView();
+            this.blackPlayerGroup = new System.Windows.Forms.GroupBox();
+            this.lvBlack = new System.Windows.Forms.ListView();
+            this.pbBlackPawn = new System.Windows.Forms.PictureBox();
+            this.pbBlackRook = new System.Windows.Forms.PictureBox();
+            this.pbBlackKnight = new System.Windows.Forms.PictureBox();
+            this.pbBlackBishop = new System.Windows.Forms.PictureBox();
+            this.pbBlackQueen = new System.Windows.Forms.PictureBox();
+            this.pbBlackKing = new System.Windows.Forms.PictureBox();
+            this.pbWhiteQueen = new System.Windows.Forms.PictureBox();
+            this.pbWhiteKing = new System.Windows.Forms.PictureBox();
+            this.pbWhiteKnight = new System.Windows.Forms.PictureBox();
+            this.pbWhiteBishop = new System.Windows.Forms.PictureBox();
+            this.pbWhiteRook = new System.Windows.Forms.PictureBox();
+            this.pbWhitePawn = new System.Windows.Forms.PictureBox();
+            this.whitePlayerGroup.SuspendLayout();
+            this.blackPlayerGroup.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackPawn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackRook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackKnight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackBishop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackQueen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackKing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteQueen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteKing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteKnight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteBishop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteRook)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhitePawn)).BeginInit();
             this.SuspendLayout();
             // 
-            // pos00
-            // 
-            this.pos00.BackColor = System.Drawing.Color.White;
-            this.pos00.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos00.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos00.Location = new System.Drawing.Point(213, 36);
-            this.pos00.Name = "pos00";
-            this.pos00.Size = new System.Drawing.Size(60, 60);
-            this.pos00.TabIndex = 0;
-            this.pos00.UseVisualStyleBackColor = false;
-            this.pos00.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos10
-            // 
-            this.pos10.BackColor = System.Drawing.Color.Black;
-            this.pos10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos10.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos10.Location = new System.Drawing.Point(279, 36);
-            this.pos10.Name = "pos10";
-            this.pos10.Size = new System.Drawing.Size(60, 60);
-            this.pos10.TabIndex = 1;
-            this.pos10.UseVisualStyleBackColor = false;
-            this.pos10.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos30
-            // 
-            this.pos30.BackColor = System.Drawing.Color.Black;
-            this.pos30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos30.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos30.Location = new System.Drawing.Point(411, 36);
-            this.pos30.Name = "pos30";
-            this.pos30.Size = new System.Drawing.Size(60, 60);
-            this.pos30.TabIndex = 3;
-            this.pos30.UseVisualStyleBackColor = false;
-            this.pos30.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos20
-            // 
-            this.pos20.BackColor = System.Drawing.Color.White;
-            this.pos20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos20.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos20.Location = new System.Drawing.Point(345, 36);
-            this.pos20.Name = "pos20";
-            this.pos20.Size = new System.Drawing.Size(60, 60);
-            this.pos20.TabIndex = 2;
-            this.pos20.UseVisualStyleBackColor = false;
-            this.pos20.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos70
-            // 
-            this.pos70.BackColor = System.Drawing.Color.Black;
-            this.pos70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos70.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos70.Location = new System.Drawing.Point(675, 36);
-            this.pos70.Name = "pos70";
-            this.pos70.Size = new System.Drawing.Size(60, 60);
-            this.pos70.TabIndex = 7;
-            this.pos70.UseVisualStyleBackColor = false;
-            this.pos70.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos60
-            // 
-            this.pos60.BackColor = System.Drawing.Color.White;
-            this.pos60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos60.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos60.Location = new System.Drawing.Point(609, 36);
-            this.pos60.Name = "pos60";
-            this.pos60.Size = new System.Drawing.Size(60, 60);
-            this.pos60.TabIndex = 6;
-            this.pos60.UseVisualStyleBackColor = false;
-            this.pos60.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos50
-            // 
-            this.pos50.BackColor = System.Drawing.Color.Black;
-            this.pos50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos50.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos50.Location = new System.Drawing.Point(543, 36);
-            this.pos50.Name = "pos50";
-            this.pos50.Size = new System.Drawing.Size(60, 60);
-            this.pos50.TabIndex = 5;
-            this.pos50.UseVisualStyleBackColor = false;
-            this.pos50.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos40
-            // 
-            this.pos40.BackColor = System.Drawing.Color.White;
-            this.pos40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos40.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos40.Location = new System.Drawing.Point(477, 36);
-            this.pos40.Name = "pos40";
-            this.pos40.Size = new System.Drawing.Size(60, 60);
-            this.pos40.TabIndex = 4;
-            this.pos40.UseVisualStyleBackColor = false;
-            this.pos40.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos71
-            // 
-            this.pos71.BackColor = System.Drawing.Color.White;
-            this.pos71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos71.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos71.Location = new System.Drawing.Point(675, 102);
-            this.pos71.Name = "pos71";
-            this.pos71.Size = new System.Drawing.Size(60, 60);
-            this.pos71.TabIndex = 15;
-            this.pos71.UseVisualStyleBackColor = false;
-            this.pos71.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos61
-            // 
-            this.pos61.BackColor = System.Drawing.Color.Black;
-            this.pos61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos61.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos61.Location = new System.Drawing.Point(609, 102);
-            this.pos61.Name = "pos61";
-            this.pos61.Size = new System.Drawing.Size(60, 60);
-            this.pos61.TabIndex = 14;
-            this.pos61.UseVisualStyleBackColor = false;
-            this.pos61.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos51
-            // 
-            this.pos51.BackColor = System.Drawing.Color.White;
-            this.pos51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos51.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos51.Location = new System.Drawing.Point(543, 102);
-            this.pos51.Name = "pos51";
-            this.pos51.Size = new System.Drawing.Size(60, 60);
-            this.pos51.TabIndex = 13;
-            this.pos51.UseVisualStyleBackColor = false;
-            this.pos51.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos41
-            // 
-            this.pos41.BackColor = System.Drawing.Color.Black;
-            this.pos41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos41.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos41.Location = new System.Drawing.Point(477, 102);
-            this.pos41.Name = "pos41";
-            this.pos41.Size = new System.Drawing.Size(60, 60);
-            this.pos41.TabIndex = 12;
-            this.pos41.UseVisualStyleBackColor = false;
-            this.pos41.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos31
-            // 
-            this.pos31.BackColor = System.Drawing.Color.White;
-            this.pos31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos31.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos31.Location = new System.Drawing.Point(411, 102);
-            this.pos31.Name = "pos31";
-            this.pos31.Size = new System.Drawing.Size(60, 60);
-            this.pos31.TabIndex = 11;
-            this.pos31.UseVisualStyleBackColor = false;
-            this.pos31.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos21
-            // 
-            this.pos21.BackColor = System.Drawing.Color.Black;
-            this.pos21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos21.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos21.Location = new System.Drawing.Point(345, 102);
-            this.pos21.Name = "pos21";
-            this.pos21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.pos21.Size = new System.Drawing.Size(60, 60);
-            this.pos21.TabIndex = 10;
-            this.pos21.UseVisualStyleBackColor = false;
-            this.pos21.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos11
-            // 
-            this.pos11.BackColor = System.Drawing.Color.White;
-            this.pos11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos11.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos11.Location = new System.Drawing.Point(279, 102);
-            this.pos11.Name = "pos11";
-            this.pos11.Size = new System.Drawing.Size(60, 60);
-            this.pos11.TabIndex = 9;
-            this.pos11.UseVisualStyleBackColor = false;
-            this.pos11.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos01
-            // 
-            this.pos01.BackColor = System.Drawing.Color.Black;
-            this.pos01.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos01.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos01.Location = new System.Drawing.Point(213, 102);
-            this.pos01.Name = "pos01";
-            this.pos01.Size = new System.Drawing.Size(60, 60);
-            this.pos01.TabIndex = 8;
-            this.pos01.UseVisualStyleBackColor = false;
-            this.pos01.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos72
-            // 
-            this.pos72.BackColor = System.Drawing.Color.Black;
-            this.pos72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos72.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos72.Location = new System.Drawing.Point(675, 168);
-            this.pos72.Name = "pos72";
-            this.pos72.Size = new System.Drawing.Size(60, 60);
-            this.pos72.TabIndex = 23;
-            this.pos72.UseVisualStyleBackColor = false;
-            this.pos72.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos62
-            // 
-            this.pos62.BackColor = System.Drawing.Color.White;
-            this.pos62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos62.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos62.Location = new System.Drawing.Point(609, 168);
-            this.pos62.Name = "pos62";
-            this.pos62.Size = new System.Drawing.Size(60, 60);
-            this.pos62.TabIndex = 22;
-            this.pos62.UseVisualStyleBackColor = false;
-            this.pos62.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos52
-            // 
-            this.pos52.BackColor = System.Drawing.Color.Black;
-            this.pos52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos52.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos52.Location = new System.Drawing.Point(543, 168);
-            this.pos52.Name = "pos52";
-            this.pos52.Size = new System.Drawing.Size(60, 60);
-            this.pos52.TabIndex = 21;
-            this.pos52.UseVisualStyleBackColor = false;
-            this.pos52.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos42
-            // 
-            this.pos42.BackColor = System.Drawing.Color.White;
-            this.pos42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos42.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos42.Location = new System.Drawing.Point(477, 168);
-            this.pos42.Name = "pos42";
-            this.pos42.Size = new System.Drawing.Size(60, 60);
-            this.pos42.TabIndex = 20;
-            this.pos42.UseVisualStyleBackColor = false;
-            this.pos42.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos32
-            // 
-            this.pos32.BackColor = System.Drawing.Color.Black;
-            this.pos32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos32.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos32.Location = new System.Drawing.Point(411, 168);
-            this.pos32.Name = "pos32";
-            this.pos32.Size = new System.Drawing.Size(60, 60);
-            this.pos32.TabIndex = 19;
-            this.pos32.UseVisualStyleBackColor = false;
-            this.pos32.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos22
-            // 
-            this.pos22.BackColor = System.Drawing.Color.White;
-            this.pos22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos22.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos22.Location = new System.Drawing.Point(345, 168);
-            this.pos22.Name = "pos22";
-            this.pos22.Size = new System.Drawing.Size(60, 60);
-            this.pos22.TabIndex = 18;
-            this.pos22.UseVisualStyleBackColor = false;
-            this.pos22.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos12
-            // 
-            this.pos12.BackColor = System.Drawing.Color.Black;
-            this.pos12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos12.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos12.Location = new System.Drawing.Point(279, 168);
-            this.pos12.Name = "pos12";
-            this.pos12.Size = new System.Drawing.Size(60, 60);
-            this.pos12.TabIndex = 17;
-            this.pos12.UseVisualStyleBackColor = false;
-            this.pos12.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos02
-            // 
-            this.pos02.BackColor = System.Drawing.Color.White;
-            this.pos02.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos02.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos02.Location = new System.Drawing.Point(213, 168);
-            this.pos02.Name = "pos02";
-            this.pos02.Size = new System.Drawing.Size(60, 60);
-            this.pos02.TabIndex = 16;
-            this.pos02.UseVisualStyleBackColor = false;
-            this.pos02.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos73
-            // 
-            this.pos73.BackColor = System.Drawing.Color.White;
-            this.pos73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos73.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos73.Location = new System.Drawing.Point(675, 234);
-            this.pos73.Name = "pos73";
-            this.pos73.Size = new System.Drawing.Size(60, 60);
-            this.pos73.TabIndex = 31;
-            this.pos73.UseVisualStyleBackColor = false;
-            this.pos73.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos63
-            // 
-            this.pos63.BackColor = System.Drawing.Color.Black;
-            this.pos63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos63.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos63.Location = new System.Drawing.Point(609, 234);
-            this.pos63.Name = "pos63";
-            this.pos63.Size = new System.Drawing.Size(60, 60);
-            this.pos63.TabIndex = 30;
-            this.pos63.UseVisualStyleBackColor = false;
-            this.pos63.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos53
-            // 
-            this.pos53.BackColor = System.Drawing.Color.White;
-            this.pos53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos53.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos53.Location = new System.Drawing.Point(543, 234);
-            this.pos53.Name = "pos53";
-            this.pos53.Size = new System.Drawing.Size(60, 60);
-            this.pos53.TabIndex = 29;
-            this.pos53.UseVisualStyleBackColor = false;
-            this.pos53.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos43
-            // 
-            this.pos43.BackColor = System.Drawing.Color.Black;
-            this.pos43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos43.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos43.Location = new System.Drawing.Point(477, 234);
-            this.pos43.Name = "pos43";
-            this.pos43.Size = new System.Drawing.Size(60, 60);
-            this.pos43.TabIndex = 28;
-            this.pos43.UseVisualStyleBackColor = false;
-            this.pos43.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos33
-            // 
-            this.pos33.BackColor = System.Drawing.Color.White;
-            this.pos33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos33.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos33.Location = new System.Drawing.Point(411, 234);
-            this.pos33.Name = "pos33";
-            this.pos33.Size = new System.Drawing.Size(60, 60);
-            this.pos33.TabIndex = 27;
-            this.pos33.UseVisualStyleBackColor = false;
-            this.pos33.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos23
-            // 
-            this.pos23.BackColor = System.Drawing.Color.Black;
-            this.pos23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos23.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos23.Location = new System.Drawing.Point(345, 234);
-            this.pos23.Name = "pos23";
-            this.pos23.Size = new System.Drawing.Size(60, 60);
-            this.pos23.TabIndex = 26;
-            this.pos23.UseVisualStyleBackColor = false;
-            this.pos23.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos13
-            // 
-            this.pos13.BackColor = System.Drawing.Color.White;
-            this.pos13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos13.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos13.Location = new System.Drawing.Point(279, 234);
-            this.pos13.Name = "pos13";
-            this.pos13.Size = new System.Drawing.Size(60, 60);
-            this.pos13.TabIndex = 25;
-            this.pos13.UseVisualStyleBackColor = false;
-            this.pos13.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos03
-            // 
-            this.pos03.BackColor = System.Drawing.Color.Black;
-            this.pos03.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos03.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos03.Location = new System.Drawing.Point(213, 234);
-            this.pos03.Name = "pos03";
-            this.pos03.Size = new System.Drawing.Size(60, 60);
-            this.pos03.TabIndex = 24;
-            this.pos03.UseVisualStyleBackColor = false;
-            this.pos03.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos74
-            // 
-            this.pos74.BackColor = System.Drawing.Color.Black;
-            this.pos74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos74.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos74.Location = new System.Drawing.Point(675, 300);
-            this.pos74.Name = "pos74";
-            this.pos74.Size = new System.Drawing.Size(60, 60);
-            this.pos74.TabIndex = 39;
-            this.pos74.UseVisualStyleBackColor = false;
-            this.pos74.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos64
-            // 
-            this.pos64.BackColor = System.Drawing.Color.White;
-            this.pos64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos64.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos64.Location = new System.Drawing.Point(609, 300);
-            this.pos64.Name = "pos64";
-            this.pos64.Size = new System.Drawing.Size(60, 60);
-            this.pos64.TabIndex = 38;
-            this.pos64.UseVisualStyleBackColor = false;
-            this.pos64.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos54
-            // 
-            this.pos54.BackColor = System.Drawing.Color.Black;
-            this.pos54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos54.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos54.Location = new System.Drawing.Point(543, 300);
-            this.pos54.Name = "pos54";
-            this.pos54.Size = new System.Drawing.Size(60, 60);
-            this.pos54.TabIndex = 37;
-            this.pos54.UseVisualStyleBackColor = false;
-            this.pos54.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos44
-            // 
-            this.pos44.BackColor = System.Drawing.Color.White;
-            this.pos44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos44.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos44.Location = new System.Drawing.Point(477, 300);
-            this.pos44.Name = "pos44";
-            this.pos44.Size = new System.Drawing.Size(60, 60);
-            this.pos44.TabIndex = 36;
-            this.pos44.UseVisualStyleBackColor = false;
-            this.pos44.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos34
-            // 
-            this.pos34.BackColor = System.Drawing.Color.Black;
-            this.pos34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos34.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos34.Location = new System.Drawing.Point(411, 300);
-            this.pos34.Name = "pos34";
-            this.pos34.Size = new System.Drawing.Size(60, 60);
-            this.pos34.TabIndex = 35;
-            this.pos34.UseVisualStyleBackColor = false;
-            this.pos34.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos24
-            // 
-            this.pos24.BackColor = System.Drawing.Color.White;
-            this.pos24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos24.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos24.Location = new System.Drawing.Point(345, 300);
-            this.pos24.Name = "pos24";
-            this.pos24.Size = new System.Drawing.Size(60, 60);
-            this.pos24.TabIndex = 34;
-            this.pos24.UseVisualStyleBackColor = false;
-            this.pos24.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos14
-            // 
-            this.pos14.BackColor = System.Drawing.Color.Black;
-            this.pos14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos14.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos14.Location = new System.Drawing.Point(279, 300);
-            this.pos14.Name = "pos14";
-            this.pos14.Size = new System.Drawing.Size(60, 60);
-            this.pos14.TabIndex = 33;
-            this.pos14.UseVisualStyleBackColor = false;
-            this.pos14.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos04
-            // 
-            this.pos04.BackColor = System.Drawing.Color.White;
-            this.pos04.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos04.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos04.Location = new System.Drawing.Point(213, 300);
-            this.pos04.Name = "pos04";
-            this.pos04.Size = new System.Drawing.Size(60, 60);
-            this.pos04.TabIndex = 32;
-            this.pos04.UseVisualStyleBackColor = false;
-            this.pos04.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos75
-            // 
-            this.pos75.BackColor = System.Drawing.Color.White;
-            this.pos75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos75.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos75.Location = new System.Drawing.Point(675, 366);
-            this.pos75.Name = "pos75";
-            this.pos75.Size = new System.Drawing.Size(60, 60);
-            this.pos75.TabIndex = 47;
-            this.pos75.UseVisualStyleBackColor = false;
-            this.pos75.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos65
-            // 
-            this.pos65.BackColor = System.Drawing.Color.Black;
-            this.pos65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos65.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos65.Location = new System.Drawing.Point(609, 366);
-            this.pos65.Name = "pos65";
-            this.pos65.Size = new System.Drawing.Size(60, 60);
-            this.pos65.TabIndex = 46;
-            this.pos65.UseVisualStyleBackColor = false;
-            this.pos65.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos55
-            // 
-            this.pos55.BackColor = System.Drawing.Color.White;
-            this.pos55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos55.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos55.Location = new System.Drawing.Point(543, 366);
-            this.pos55.Name = "pos55";
-            this.pos55.Size = new System.Drawing.Size(60, 60);
-            this.pos55.TabIndex = 45;
-            this.pos55.UseVisualStyleBackColor = false;
-            this.pos55.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos45
-            // 
-            this.pos45.BackColor = System.Drawing.Color.Black;
-            this.pos45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos45.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos45.Location = new System.Drawing.Point(477, 366);
-            this.pos45.Name = "pos45";
-            this.pos45.Size = new System.Drawing.Size(60, 60);
-            this.pos45.TabIndex = 44;
-            this.pos45.UseVisualStyleBackColor = false;
-            this.pos45.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos35
-            // 
-            this.pos35.BackColor = System.Drawing.Color.White;
-            this.pos35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos35.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos35.Location = new System.Drawing.Point(411, 366);
-            this.pos35.Name = "pos35";
-            this.pos35.Size = new System.Drawing.Size(60, 60);
-            this.pos35.TabIndex = 43;
-            this.pos35.UseVisualStyleBackColor = false;
-            this.pos35.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos25
-            // 
-            this.pos25.BackColor = System.Drawing.Color.Black;
-            this.pos25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos25.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos25.Location = new System.Drawing.Point(345, 366);
-            this.pos25.Name = "pos25";
-            this.pos25.Size = new System.Drawing.Size(60, 60);
-            this.pos25.TabIndex = 42;
-            this.pos25.UseVisualStyleBackColor = false;
-            this.pos25.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos15
-            // 
-            this.pos15.BackColor = System.Drawing.Color.White;
-            this.pos15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos15.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos15.Location = new System.Drawing.Point(279, 366);
-            this.pos15.Name = "pos15";
-            this.pos15.Size = new System.Drawing.Size(60, 60);
-            this.pos15.TabIndex = 41;
-            this.pos15.UseVisualStyleBackColor = false;
-            this.pos15.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos05
-            // 
-            this.pos05.BackColor = System.Drawing.Color.Black;
-            this.pos05.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos05.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos05.Location = new System.Drawing.Point(213, 366);
-            this.pos05.Name = "pos05";
-            this.pos05.Size = new System.Drawing.Size(60, 60);
-            this.pos05.TabIndex = 40;
-            this.pos05.UseVisualStyleBackColor = false;
-            this.pos05.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos76
-            // 
-            this.pos76.BackColor = System.Drawing.Color.Black;
-            this.pos76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos76.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos76.Location = new System.Drawing.Point(675, 432);
-            this.pos76.Name = "pos76";
-            this.pos76.Size = new System.Drawing.Size(60, 60);
-            this.pos76.TabIndex = 55;
-            this.pos76.UseVisualStyleBackColor = false;
-            this.pos76.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos66
-            // 
-            this.pos66.BackColor = System.Drawing.Color.White;
-            this.pos66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos66.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos66.Location = new System.Drawing.Point(609, 432);
-            this.pos66.Name = "pos66";
-            this.pos66.Size = new System.Drawing.Size(60, 60);
-            this.pos66.TabIndex = 54;
-            this.pos66.UseVisualStyleBackColor = false;
-            this.pos66.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos56
-            // 
-            this.pos56.BackColor = System.Drawing.Color.Black;
-            this.pos56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos56.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos56.Location = new System.Drawing.Point(543, 432);
-            this.pos56.Name = "pos56";
-            this.pos56.Size = new System.Drawing.Size(60, 60);
-            this.pos56.TabIndex = 53;
-            this.pos56.UseVisualStyleBackColor = false;
-            this.pos56.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos46
-            // 
-            this.pos46.BackColor = System.Drawing.Color.White;
-            this.pos46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos46.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos46.Location = new System.Drawing.Point(477, 432);
-            this.pos46.Name = "pos46";
-            this.pos46.Size = new System.Drawing.Size(60, 60);
-            this.pos46.TabIndex = 52;
-            this.pos46.UseVisualStyleBackColor = false;
-            this.pos46.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos36
-            // 
-            this.pos36.BackColor = System.Drawing.Color.Black;
-            this.pos36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos36.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos36.Location = new System.Drawing.Point(411, 432);
-            this.pos36.Name = "pos36";
-            this.pos36.Size = new System.Drawing.Size(60, 60);
-            this.pos36.TabIndex = 51;
-            this.pos36.UseVisualStyleBackColor = false;
-            this.pos36.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos26
-            // 
-            this.pos26.BackColor = System.Drawing.Color.White;
-            this.pos26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos26.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos26.Location = new System.Drawing.Point(345, 432);
-            this.pos26.Name = "pos26";
-            this.pos26.Size = new System.Drawing.Size(60, 60);
-            this.pos26.TabIndex = 50;
-            this.pos26.UseVisualStyleBackColor = false;
-            this.pos26.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos16
-            // 
-            this.pos16.BackColor = System.Drawing.Color.Black;
-            this.pos16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos16.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos16.Location = new System.Drawing.Point(279, 432);
-            this.pos16.Name = "pos16";
-            this.pos16.Size = new System.Drawing.Size(60, 60);
-            this.pos16.TabIndex = 49;
-            this.pos16.UseVisualStyleBackColor = false;
-            this.pos16.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos06
-            // 
-            this.pos06.BackColor = System.Drawing.Color.White;
-            this.pos06.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos06.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos06.Location = new System.Drawing.Point(213, 432);
-            this.pos06.Name = "pos06";
-            this.pos06.Size = new System.Drawing.Size(60, 60);
-            this.pos06.TabIndex = 48;
-            this.pos06.UseVisualStyleBackColor = false;
-            this.pos06.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos77
-            // 
-            this.pos77.BackColor = System.Drawing.Color.White;
-            this.pos77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos77.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos77.Location = new System.Drawing.Point(675, 498);
-            this.pos77.Name = "pos77";
-            this.pos77.Size = new System.Drawing.Size(60, 60);
-            this.pos77.TabIndex = 63;
-            this.pos77.UseVisualStyleBackColor = false;
-            this.pos77.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos67
-            // 
-            this.pos67.BackColor = System.Drawing.Color.Black;
-            this.pos67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos67.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos67.Location = new System.Drawing.Point(609, 498);
-            this.pos67.Name = "pos67";
-            this.pos67.Size = new System.Drawing.Size(60, 60);
-            this.pos67.TabIndex = 62;
-            this.pos67.UseVisualStyleBackColor = false;
-            this.pos67.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos57
-            // 
-            this.pos57.BackColor = System.Drawing.Color.White;
-            this.pos57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos57.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos57.Location = new System.Drawing.Point(543, 498);
-            this.pos57.Name = "pos57";
-            this.pos57.Size = new System.Drawing.Size(60, 60);
-            this.pos57.TabIndex = 61;
-            this.pos57.UseVisualStyleBackColor = false;
-            this.pos57.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos47
-            // 
-            this.pos47.BackColor = System.Drawing.Color.Black;
-            this.pos47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos47.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos47.Location = new System.Drawing.Point(477, 498);
-            this.pos47.Name = "pos47";
-            this.pos47.Size = new System.Drawing.Size(60, 60);
-            this.pos47.TabIndex = 60;
-            this.pos47.UseVisualStyleBackColor = false;
-            this.pos47.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos37
-            // 
-            this.pos37.BackColor = System.Drawing.Color.White;
-            this.pos37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos37.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos37.Location = new System.Drawing.Point(411, 498);
-            this.pos37.Name = "pos37";
-            this.pos37.Size = new System.Drawing.Size(60, 60);
-            this.pos37.TabIndex = 59;
-            this.pos37.UseVisualStyleBackColor = false;
-            this.pos37.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos27
-            // 
-            this.pos27.BackColor = System.Drawing.Color.Black;
-            this.pos27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos27.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos27.Location = new System.Drawing.Point(345, 498);
-            this.pos27.Name = "pos27";
-            this.pos27.Size = new System.Drawing.Size(60, 60);
-            this.pos27.TabIndex = 58;
-            this.pos27.UseVisualStyleBackColor = false;
-            this.pos27.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos17
-            // 
-            this.pos17.BackColor = System.Drawing.Color.White;
-            this.pos17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos17.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos17.Location = new System.Drawing.Point(279, 498);
-            this.pos17.Name = "pos17";
-            this.pos17.Size = new System.Drawing.Size(60, 60);
-            this.pos17.TabIndex = 57;
-            this.pos17.UseVisualStyleBackColor = false;
-            this.pos17.Click += new System.EventHandler(this.BoardCell_Click);
-            // 
-            // pos07
-            // 
-            this.pos07.BackColor = System.Drawing.Color.Black;
-            this.pos07.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.pos07.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.pos07.Location = new System.Drawing.Point(213, 498);
-            this.pos07.Name = "pos07";
-            this.pos07.Size = new System.Drawing.Size(60, 60);
-            this.pos07.TabIndex = 56;
-            this.pos07.UseVisualStyleBackColor = false;
-            this.pos07.Click += new System.EventHandler(this.BoardCell_Click);
+            // posA0
+            // 
+            this.posA0.BackColor = System.Drawing.Color.White;
+            this.posA0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA0.Location = new System.Drawing.Point(70, 106);
+            this.posA0.Name = "posA0";
+            this.posA0.Size = new System.Drawing.Size(60, 60);
+            this.posA0.TabIndex = 0;
+            this.posA0.UseVisualStyleBackColor = false;
+            this.posA0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB0
+            // 
+            this.posB0.BackColor = System.Drawing.Color.Gray;
+            this.posB0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB0.Location = new System.Drawing.Point(136, 106);
+            this.posB0.Name = "posB0";
+            this.posB0.Size = new System.Drawing.Size(60, 60);
+            this.posB0.TabIndex = 1;
+            this.posB0.UseVisualStyleBackColor = false;
+            this.posB0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD0
+            // 
+            this.posD0.BackColor = System.Drawing.Color.Gray;
+            this.posD0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD0.Location = new System.Drawing.Point(268, 106);
+            this.posD0.Name = "posD0";
+            this.posD0.Size = new System.Drawing.Size(60, 60);
+            this.posD0.TabIndex = 3;
+            this.posD0.UseVisualStyleBackColor = false;
+            this.posD0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC0
+            // 
+            this.posC0.BackColor = System.Drawing.Color.White;
+            this.posC0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC0.Location = new System.Drawing.Point(202, 106);
+            this.posC0.Name = "posC0";
+            this.posC0.Size = new System.Drawing.Size(60, 60);
+            this.posC0.TabIndex = 2;
+            this.posC0.UseVisualStyleBackColor = false;
+            this.posC0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH0
+            // 
+            this.posH0.BackColor = System.Drawing.Color.Gray;
+            this.posH0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH0.Location = new System.Drawing.Point(532, 106);
+            this.posH0.Name = "posH0";
+            this.posH0.Size = new System.Drawing.Size(60, 60);
+            this.posH0.TabIndex = 7;
+            this.posH0.UseVisualStyleBackColor = false;
+            this.posH0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG0
+            // 
+            this.posG0.BackColor = System.Drawing.Color.White;
+            this.posG0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG0.Location = new System.Drawing.Point(466, 106);
+            this.posG0.Name = "posG0";
+            this.posG0.Size = new System.Drawing.Size(60, 60);
+            this.posG0.TabIndex = 6;
+            this.posG0.UseVisualStyleBackColor = false;
+            this.posG0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF0
+            // 
+            this.posF0.BackColor = System.Drawing.Color.Gray;
+            this.posF0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF0.Location = new System.Drawing.Point(400, 106);
+            this.posF0.Name = "posF0";
+            this.posF0.Size = new System.Drawing.Size(60, 60);
+            this.posF0.TabIndex = 5;
+            this.posF0.UseVisualStyleBackColor = false;
+            this.posF0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE0
+            // 
+            this.posE0.BackColor = System.Drawing.Color.White;
+            this.posE0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE0.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE0.Location = new System.Drawing.Point(334, 106);
+            this.posE0.Name = "posE0";
+            this.posE0.Size = new System.Drawing.Size(60, 60);
+            this.posE0.TabIndex = 4;
+            this.posE0.UseVisualStyleBackColor = false;
+            this.posE0.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH1
+            // 
+            this.posH1.BackColor = System.Drawing.Color.White;
+            this.posH1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH1.Location = new System.Drawing.Point(532, 172);
+            this.posH1.Name = "posH1";
+            this.posH1.Size = new System.Drawing.Size(60, 60);
+            this.posH1.TabIndex = 15;
+            this.posH1.UseVisualStyleBackColor = false;
+            this.posH1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG1
+            // 
+            this.posG1.BackColor = System.Drawing.Color.Gray;
+            this.posG1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG1.Location = new System.Drawing.Point(466, 172);
+            this.posG1.Name = "posG1";
+            this.posG1.Size = new System.Drawing.Size(60, 60);
+            this.posG1.TabIndex = 14;
+            this.posG1.UseVisualStyleBackColor = false;
+            this.posG1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF1
+            // 
+            this.posF1.BackColor = System.Drawing.Color.White;
+            this.posF1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF1.Location = new System.Drawing.Point(400, 172);
+            this.posF1.Name = "posF1";
+            this.posF1.Size = new System.Drawing.Size(60, 60);
+            this.posF1.TabIndex = 13;
+            this.posF1.UseVisualStyleBackColor = false;
+            this.posF1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE1
+            // 
+            this.posE1.BackColor = System.Drawing.Color.Gray;
+            this.posE1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE1.Location = new System.Drawing.Point(334, 172);
+            this.posE1.Name = "posE1";
+            this.posE1.Size = new System.Drawing.Size(60, 60);
+            this.posE1.TabIndex = 12;
+            this.posE1.UseVisualStyleBackColor = false;
+            this.posE1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD1
+            // 
+            this.posD1.BackColor = System.Drawing.Color.White;
+            this.posD1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD1.Location = new System.Drawing.Point(268, 172);
+            this.posD1.Name = "posD1";
+            this.posD1.Size = new System.Drawing.Size(60, 60);
+            this.posD1.TabIndex = 11;
+            this.posD1.UseVisualStyleBackColor = false;
+            this.posD1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC1
+            // 
+            this.posC1.BackColor = System.Drawing.Color.Gray;
+            this.posC1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC1.Location = new System.Drawing.Point(202, 172);
+            this.posC1.Name = "posC1";
+            this.posC1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.posC1.Size = new System.Drawing.Size(60, 60);
+            this.posC1.TabIndex = 10;
+            this.posC1.UseVisualStyleBackColor = false;
+            this.posC1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB1
+            // 
+            this.posB1.BackColor = System.Drawing.Color.White;
+            this.posB1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB1.Location = new System.Drawing.Point(136, 172);
+            this.posB1.Name = "posB1";
+            this.posB1.Size = new System.Drawing.Size(60, 60);
+            this.posB1.TabIndex = 9;
+            this.posB1.UseVisualStyleBackColor = false;
+            this.posB1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA1
+            // 
+            this.posA1.BackColor = System.Drawing.Color.Gray;
+            this.posA1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA1.Location = new System.Drawing.Point(70, 172);
+            this.posA1.Name = "posA1";
+            this.posA1.Size = new System.Drawing.Size(60, 60);
+            this.posA1.TabIndex = 8;
+            this.posA1.UseVisualStyleBackColor = false;
+            this.posA1.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH2
+            // 
+            this.posH2.BackColor = System.Drawing.Color.Gray;
+            this.posH2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH2.Location = new System.Drawing.Point(532, 238);
+            this.posH2.Name = "posH2";
+            this.posH2.Size = new System.Drawing.Size(60, 60);
+            this.posH2.TabIndex = 23;
+            this.posH2.UseVisualStyleBackColor = false;
+            this.posH2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG2
+            // 
+            this.posG2.BackColor = System.Drawing.Color.White;
+            this.posG2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG2.Location = new System.Drawing.Point(466, 238);
+            this.posG2.Name = "posG2";
+            this.posG2.Size = new System.Drawing.Size(60, 60);
+            this.posG2.TabIndex = 22;
+            this.posG2.UseVisualStyleBackColor = false;
+            this.posG2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF2
+            // 
+            this.posF2.BackColor = System.Drawing.Color.Gray;
+            this.posF2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF2.Location = new System.Drawing.Point(400, 238);
+            this.posF2.Name = "posF2";
+            this.posF2.Size = new System.Drawing.Size(60, 60);
+            this.posF2.TabIndex = 21;
+            this.posF2.UseVisualStyleBackColor = false;
+            this.posF2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE2
+            // 
+            this.posE2.BackColor = System.Drawing.Color.White;
+            this.posE2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE2.Location = new System.Drawing.Point(334, 238);
+            this.posE2.Name = "posE2";
+            this.posE2.Size = new System.Drawing.Size(60, 60);
+            this.posE2.TabIndex = 20;
+            this.posE2.UseVisualStyleBackColor = false;
+            this.posE2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD2
+            // 
+            this.posD2.BackColor = System.Drawing.Color.Gray;
+            this.posD2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD2.Location = new System.Drawing.Point(268, 238);
+            this.posD2.Name = "posD2";
+            this.posD2.Size = new System.Drawing.Size(60, 60);
+            this.posD2.TabIndex = 19;
+            this.posD2.UseVisualStyleBackColor = false;
+            this.posD2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC2
+            // 
+            this.posC2.BackColor = System.Drawing.Color.White;
+            this.posC2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC2.Location = new System.Drawing.Point(202, 238);
+            this.posC2.Name = "posC2";
+            this.posC2.Size = new System.Drawing.Size(60, 60);
+            this.posC2.TabIndex = 18;
+            this.posC2.UseVisualStyleBackColor = false;
+            this.posC2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB2
+            // 
+            this.posB2.BackColor = System.Drawing.Color.Gray;
+            this.posB2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB2.Location = new System.Drawing.Point(136, 238);
+            this.posB2.Name = "posB2";
+            this.posB2.Size = new System.Drawing.Size(60, 60);
+            this.posB2.TabIndex = 17;
+            this.posB2.UseVisualStyleBackColor = false;
+            this.posB2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA2
+            // 
+            this.posA2.BackColor = System.Drawing.Color.White;
+            this.posA2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA2.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA2.Location = new System.Drawing.Point(70, 238);
+            this.posA2.Name = "posA2";
+            this.posA2.Size = new System.Drawing.Size(60, 60);
+            this.posA2.TabIndex = 16;
+            this.posA2.UseVisualStyleBackColor = false;
+            this.posA2.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH3
+            // 
+            this.posH3.BackColor = System.Drawing.Color.White;
+            this.posH3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH3.Location = new System.Drawing.Point(532, 304);
+            this.posH3.Name = "posH3";
+            this.posH3.Size = new System.Drawing.Size(60, 60);
+            this.posH3.TabIndex = 31;
+            this.posH3.UseVisualStyleBackColor = false;
+            this.posH3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG3
+            // 
+            this.posG3.BackColor = System.Drawing.Color.Gray;
+            this.posG3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG3.Location = new System.Drawing.Point(466, 304);
+            this.posG3.Name = "posG3";
+            this.posG3.Size = new System.Drawing.Size(60, 60);
+            this.posG3.TabIndex = 30;
+            this.posG3.UseVisualStyleBackColor = false;
+            this.posG3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF3
+            // 
+            this.posF3.BackColor = System.Drawing.Color.White;
+            this.posF3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF3.Location = new System.Drawing.Point(400, 304);
+            this.posF3.Name = "posF3";
+            this.posF3.Size = new System.Drawing.Size(60, 60);
+            this.posF3.TabIndex = 29;
+            this.posF3.UseVisualStyleBackColor = false;
+            this.posF3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE3
+            // 
+            this.posE3.BackColor = System.Drawing.Color.Gray;
+            this.posE3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE3.Location = new System.Drawing.Point(334, 304);
+            this.posE3.Name = "posE3";
+            this.posE3.Size = new System.Drawing.Size(60, 60);
+            this.posE3.TabIndex = 28;
+            this.posE3.UseVisualStyleBackColor = false;
+            this.posE3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD3
+            // 
+            this.posD3.BackColor = System.Drawing.Color.White;
+            this.posD3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD3.Location = new System.Drawing.Point(268, 304);
+            this.posD3.Name = "posD3";
+            this.posD3.Size = new System.Drawing.Size(60, 60);
+            this.posD3.TabIndex = 27;
+            this.posD3.UseVisualStyleBackColor = false;
+            this.posD3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC3
+            // 
+            this.posC3.BackColor = System.Drawing.Color.Gray;
+            this.posC3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC3.Location = new System.Drawing.Point(202, 304);
+            this.posC3.Name = "posC3";
+            this.posC3.Size = new System.Drawing.Size(60, 60);
+            this.posC3.TabIndex = 26;
+            this.posC3.UseVisualStyleBackColor = false;
+            this.posC3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB3
+            // 
+            this.posB3.BackColor = System.Drawing.Color.White;
+            this.posB3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB3.Location = new System.Drawing.Point(136, 304);
+            this.posB3.Name = "posB3";
+            this.posB3.Size = new System.Drawing.Size(60, 60);
+            this.posB3.TabIndex = 25;
+            this.posB3.UseVisualStyleBackColor = false;
+            this.posB3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA3
+            // 
+            this.posA3.BackColor = System.Drawing.Color.Gray;
+            this.posA3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA3.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA3.Location = new System.Drawing.Point(70, 304);
+            this.posA3.Name = "posA3";
+            this.posA3.Size = new System.Drawing.Size(60, 60);
+            this.posA3.TabIndex = 24;
+            this.posA3.UseVisualStyleBackColor = false;
+            this.posA3.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH4
+            // 
+            this.posH4.BackColor = System.Drawing.Color.Gray;
+            this.posH4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH4.Location = new System.Drawing.Point(532, 370);
+            this.posH4.Name = "posH4";
+            this.posH4.Size = new System.Drawing.Size(60, 60);
+            this.posH4.TabIndex = 39;
+            this.posH4.UseVisualStyleBackColor = false;
+            this.posH4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG4
+            // 
+            this.posG4.BackColor = System.Drawing.Color.White;
+            this.posG4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG4.Location = new System.Drawing.Point(466, 370);
+            this.posG4.Name = "posG4";
+            this.posG4.Size = new System.Drawing.Size(60, 60);
+            this.posG4.TabIndex = 38;
+            this.posG4.UseVisualStyleBackColor = false;
+            this.posG4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF4
+            // 
+            this.posF4.BackColor = System.Drawing.Color.Gray;
+            this.posF4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF4.Location = new System.Drawing.Point(400, 370);
+            this.posF4.Name = "posF4";
+            this.posF4.Size = new System.Drawing.Size(60, 60);
+            this.posF4.TabIndex = 37;
+            this.posF4.UseVisualStyleBackColor = false;
+            this.posF4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE4
+            // 
+            this.posE4.BackColor = System.Drawing.Color.White;
+            this.posE4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE4.Location = new System.Drawing.Point(334, 370);
+            this.posE4.Name = "posE4";
+            this.posE4.Size = new System.Drawing.Size(60, 60);
+            this.posE4.TabIndex = 36;
+            this.posE4.UseVisualStyleBackColor = false;
+            this.posE4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD4
+            // 
+            this.posD4.BackColor = System.Drawing.Color.Gray;
+            this.posD4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD4.Location = new System.Drawing.Point(268, 370);
+            this.posD4.Name = "posD4";
+            this.posD4.Size = new System.Drawing.Size(60, 60);
+            this.posD4.TabIndex = 35;
+            this.posD4.UseVisualStyleBackColor = false;
+            this.posD4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC4
+            // 
+            this.posC4.BackColor = System.Drawing.Color.White;
+            this.posC4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC4.Location = new System.Drawing.Point(202, 370);
+            this.posC4.Name = "posC4";
+            this.posC4.Size = new System.Drawing.Size(60, 60);
+            this.posC4.TabIndex = 34;
+            this.posC4.UseVisualStyleBackColor = false;
+            this.posC4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB4
+            // 
+            this.posB4.BackColor = System.Drawing.Color.Gray;
+            this.posB4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB4.Location = new System.Drawing.Point(136, 370);
+            this.posB4.Name = "posB4";
+            this.posB4.Size = new System.Drawing.Size(60, 60);
+            this.posB4.TabIndex = 33;
+            this.posB4.UseVisualStyleBackColor = false;
+            this.posB4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA4
+            // 
+            this.posA4.BackColor = System.Drawing.Color.White;
+            this.posA4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA4.Location = new System.Drawing.Point(70, 370);
+            this.posA4.Name = "posA4";
+            this.posA4.Size = new System.Drawing.Size(60, 60);
+            this.posA4.TabIndex = 32;
+            this.posA4.UseVisualStyleBackColor = false;
+            this.posA4.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH5
+            // 
+            this.posH5.BackColor = System.Drawing.Color.White;
+            this.posH5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH5.Location = new System.Drawing.Point(532, 436);
+            this.posH5.Name = "posH5";
+            this.posH5.Size = new System.Drawing.Size(60, 60);
+            this.posH5.TabIndex = 47;
+            this.posH5.UseVisualStyleBackColor = false;
+            this.posH5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG5
+            // 
+            this.posG5.BackColor = System.Drawing.Color.Gray;
+            this.posG5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG5.Location = new System.Drawing.Point(466, 436);
+            this.posG5.Name = "posG5";
+            this.posG5.Size = new System.Drawing.Size(60, 60);
+            this.posG5.TabIndex = 46;
+            this.posG5.UseVisualStyleBackColor = false;
+            this.posG5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF5
+            // 
+            this.posF5.BackColor = System.Drawing.Color.White;
+            this.posF5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF5.Location = new System.Drawing.Point(400, 436);
+            this.posF5.Name = "posF5";
+            this.posF5.Size = new System.Drawing.Size(60, 60);
+            this.posF5.TabIndex = 45;
+            this.posF5.UseVisualStyleBackColor = false;
+            this.posF5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE5
+            // 
+            this.posE5.BackColor = System.Drawing.Color.Gray;
+            this.posE5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE5.Location = new System.Drawing.Point(334, 436);
+            this.posE5.Name = "posE5";
+            this.posE5.Size = new System.Drawing.Size(60, 60);
+            this.posE5.TabIndex = 44;
+            this.posE5.UseVisualStyleBackColor = false;
+            this.posE5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD5
+            // 
+            this.posD5.BackColor = System.Drawing.Color.White;
+            this.posD5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD5.Location = new System.Drawing.Point(268, 436);
+            this.posD5.Name = "posD5";
+            this.posD5.Size = new System.Drawing.Size(60, 60);
+            this.posD5.TabIndex = 43;
+            this.posD5.UseVisualStyleBackColor = false;
+            this.posD5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC5
+            // 
+            this.posC5.BackColor = System.Drawing.Color.Gray;
+            this.posC5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC5.Location = new System.Drawing.Point(202, 436);
+            this.posC5.Name = "posC5";
+            this.posC5.Size = new System.Drawing.Size(60, 60);
+            this.posC5.TabIndex = 42;
+            this.posC5.UseVisualStyleBackColor = false;
+            this.posC5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB5
+            // 
+            this.posB5.BackColor = System.Drawing.Color.White;
+            this.posB5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB5.Location = new System.Drawing.Point(136, 436);
+            this.posB5.Name = "posB5";
+            this.posB5.Size = new System.Drawing.Size(60, 60);
+            this.posB5.TabIndex = 41;
+            this.posB5.UseVisualStyleBackColor = false;
+            this.posB5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA5
+            // 
+            this.posA5.BackColor = System.Drawing.Color.Gray;
+            this.posA5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA5.Location = new System.Drawing.Point(70, 436);
+            this.posA5.Name = "posA5";
+            this.posA5.Size = new System.Drawing.Size(60, 60);
+            this.posA5.TabIndex = 40;
+            this.posA5.UseVisualStyleBackColor = false;
+            this.posA5.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH6
+            // 
+            this.posH6.BackColor = System.Drawing.Color.Gray;
+            this.posH6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH6.Location = new System.Drawing.Point(532, 502);
+            this.posH6.Name = "posH6";
+            this.posH6.Size = new System.Drawing.Size(60, 60);
+            this.posH6.TabIndex = 55;
+            this.posH6.UseVisualStyleBackColor = false;
+            this.posH6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG6
+            // 
+            this.posG6.BackColor = System.Drawing.Color.White;
+            this.posG6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG6.Location = new System.Drawing.Point(466, 502);
+            this.posG6.Name = "posG6";
+            this.posG6.Size = new System.Drawing.Size(60, 60);
+            this.posG6.TabIndex = 54;
+            this.posG6.UseVisualStyleBackColor = false;
+            this.posG6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF6
+            // 
+            this.posF6.BackColor = System.Drawing.Color.Gray;
+            this.posF6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF6.Location = new System.Drawing.Point(400, 502);
+            this.posF6.Name = "posF6";
+            this.posF6.Size = new System.Drawing.Size(60, 60);
+            this.posF6.TabIndex = 53;
+            this.posF6.UseVisualStyleBackColor = false;
+            this.posF6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE6
+            // 
+            this.posE6.BackColor = System.Drawing.Color.White;
+            this.posE6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE6.Location = new System.Drawing.Point(334, 502);
+            this.posE6.Name = "posE6";
+            this.posE6.Size = new System.Drawing.Size(60, 60);
+            this.posE6.TabIndex = 52;
+            this.posE6.UseVisualStyleBackColor = false;
+            this.posE6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD6
+            // 
+            this.posD6.BackColor = System.Drawing.Color.Gray;
+            this.posD6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD6.Location = new System.Drawing.Point(268, 502);
+            this.posD6.Name = "posD6";
+            this.posD6.Size = new System.Drawing.Size(60, 60);
+            this.posD6.TabIndex = 51;
+            this.posD6.UseVisualStyleBackColor = false;
+            this.posD6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC6
+            // 
+            this.posC6.BackColor = System.Drawing.Color.White;
+            this.posC6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC6.Location = new System.Drawing.Point(202, 502);
+            this.posC6.Name = "posC6";
+            this.posC6.Size = new System.Drawing.Size(60, 60);
+            this.posC6.TabIndex = 50;
+            this.posC6.UseVisualStyleBackColor = false;
+            this.posC6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB6
+            // 
+            this.posB6.BackColor = System.Drawing.Color.Gray;
+            this.posB6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB6.Location = new System.Drawing.Point(136, 502);
+            this.posB6.Name = "posB6";
+            this.posB6.Size = new System.Drawing.Size(60, 60);
+            this.posB6.TabIndex = 49;
+            this.posB6.UseVisualStyleBackColor = false;
+            this.posB6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA6
+            // 
+            this.posA6.BackColor = System.Drawing.Color.White;
+            this.posA6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA6.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA6.Location = new System.Drawing.Point(70, 502);
+            this.posA6.Name = "posA6";
+            this.posA6.Size = new System.Drawing.Size(60, 60);
+            this.posA6.TabIndex = 48;
+            this.posA6.UseVisualStyleBackColor = false;
+            this.posA6.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posH7
+            // 
+            this.posH7.BackColor = System.Drawing.Color.White;
+            this.posH7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posH7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posH7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posH7.Location = new System.Drawing.Point(532, 568);
+            this.posH7.Name = "posH7";
+            this.posH7.Size = new System.Drawing.Size(60, 60);
+            this.posH7.TabIndex = 63;
+            this.posH7.UseVisualStyleBackColor = false;
+            this.posH7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posG7
+            // 
+            this.posG7.BackColor = System.Drawing.Color.Gray;
+            this.posG7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posG7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posG7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posG7.Location = new System.Drawing.Point(466, 568);
+            this.posG7.Name = "posG7";
+            this.posG7.Size = new System.Drawing.Size(60, 60);
+            this.posG7.TabIndex = 62;
+            this.posG7.UseVisualStyleBackColor = false;
+            this.posG7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posF7
+            // 
+            this.posF7.BackColor = System.Drawing.Color.White;
+            this.posF7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posF7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posF7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posF7.Location = new System.Drawing.Point(400, 568);
+            this.posF7.Name = "posF7";
+            this.posF7.Size = new System.Drawing.Size(60, 60);
+            this.posF7.TabIndex = 61;
+            this.posF7.UseVisualStyleBackColor = false;
+            this.posF7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posE7
+            // 
+            this.posE7.BackColor = System.Drawing.Color.Gray;
+            this.posE7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posE7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posE7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posE7.Location = new System.Drawing.Point(334, 568);
+            this.posE7.Name = "posE7";
+            this.posE7.Size = new System.Drawing.Size(60, 60);
+            this.posE7.TabIndex = 60;
+            this.posE7.UseVisualStyleBackColor = false;
+            this.posE7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posD7
+            // 
+            this.posD7.BackColor = System.Drawing.Color.White;
+            this.posD7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posD7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posD7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posD7.Location = new System.Drawing.Point(268, 568);
+            this.posD7.Name = "posD7";
+            this.posD7.Size = new System.Drawing.Size(60, 60);
+            this.posD7.TabIndex = 59;
+            this.posD7.UseVisualStyleBackColor = false;
+            this.posD7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posC7
+            // 
+            this.posC7.BackColor = System.Drawing.Color.Gray;
+            this.posC7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posC7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posC7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posC7.Location = new System.Drawing.Point(202, 568);
+            this.posC7.Name = "posC7";
+            this.posC7.Size = new System.Drawing.Size(60, 60);
+            this.posC7.TabIndex = 58;
+            this.posC7.UseVisualStyleBackColor = false;
+            this.posC7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posB7
+            // 
+            this.posB7.BackColor = System.Drawing.Color.White;
+            this.posB7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posB7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posB7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posB7.Location = new System.Drawing.Point(136, 568);
+            this.posB7.Name = "posB7";
+            this.posB7.Size = new System.Drawing.Size(60, 60);
+            this.posB7.TabIndex = 57;
+            this.posB7.UseVisualStyleBackColor = false;
+            this.posB7.Click += new System.EventHandler(this.BoardCell_Click);
+            // 
+            // posA7
+            // 
+            this.posA7.BackColor = System.Drawing.Color.Gray;
+            this.posA7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.posA7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.posA7.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.posA7.Location = new System.Drawing.Point(70, 568);
+            this.posA7.Name = "posA7";
+            this.posA7.Size = new System.Drawing.Size(60, 60);
+            this.posA7.TabIndex = 56;
+            this.posA7.UseVisualStyleBackColor = false;
+            this.posA7.Click += new System.EventHandler(this.BoardCell_Click);
             // 
             // lblX0
             // 
             this.lblX0.AutoSize = true;
-            this.lblX0.Location = new System.Drawing.Point(236, 13);
+            this.lblX0.Location = new System.Drawing.Point(93, 83);
             this.lblX0.Name = "lblX0";
-            this.lblX0.Size = new System.Drawing.Size(13, 13);
+            this.lblX0.Size = new System.Drawing.Size(14, 13);
             this.lblX0.TabIndex = 64;
-            this.lblX0.Text = "0";
+            this.lblX0.Text = "A";
             // 
             // lblX1
             // 
             this.lblX1.AutoSize = true;
-            this.lblX1.Location = new System.Drawing.Point(303, 13);
+            this.lblX1.Location = new System.Drawing.Point(160, 83);
             this.lblX1.Name = "lblX1";
-            this.lblX1.Size = new System.Drawing.Size(13, 13);
+            this.lblX1.Size = new System.Drawing.Size(14, 13);
             this.lblX1.TabIndex = 65;
-            this.lblX1.Text = "1";
+            this.lblX1.Text = "B";
             // 
             // lblX3
             // 
             this.lblX3.AutoSize = true;
-            this.lblX3.Location = new System.Drawing.Point(435, 13);
+            this.lblX3.Location = new System.Drawing.Point(292, 83);
             this.lblX3.Name = "lblX3";
-            this.lblX3.Size = new System.Drawing.Size(13, 13);
+            this.lblX3.Size = new System.Drawing.Size(15, 13);
             this.lblX3.TabIndex = 67;
-            this.lblX3.Text = "3";
+            this.lblX3.Text = "D";
             // 
             // lblX2
             // 
             this.lblX2.AutoSize = true;
-            this.lblX2.Location = new System.Drawing.Point(368, 13);
+            this.lblX2.Location = new System.Drawing.Point(225, 83);
             this.lblX2.Name = "lblX2";
-            this.lblX2.Size = new System.Drawing.Size(13, 13);
+            this.lblX2.Size = new System.Drawing.Size(14, 13);
             this.lblX2.TabIndex = 66;
-            this.lblX2.Text = "2";
+            this.lblX2.Text = "C";
             // 
             // lblX7
             // 
             this.lblX7.AutoSize = true;
-            this.lblX7.Location = new System.Drawing.Point(699, 13);
+            this.lblX7.Location = new System.Drawing.Point(556, 83);
             this.lblX7.Name = "lblX7";
-            this.lblX7.Size = new System.Drawing.Size(13, 13);
+            this.lblX7.Size = new System.Drawing.Size(15, 13);
             this.lblX7.TabIndex = 71;
-            this.lblX7.Text = "7";
+            this.lblX7.Text = "H";
             // 
             // lblX6
             // 
             this.lblX6.AutoSize = true;
-            this.lblX6.Location = new System.Drawing.Point(632, 13);
+            this.lblX6.Location = new System.Drawing.Point(489, 83);
             this.lblX6.Name = "lblX6";
-            this.lblX6.Size = new System.Drawing.Size(13, 13);
+            this.lblX6.Size = new System.Drawing.Size(15, 13);
             this.lblX6.TabIndex = 70;
-            this.lblX6.Text = "6";
+            this.lblX6.Text = "G";
             // 
             // lblX5
             // 
             this.lblX5.AutoSize = true;
-            this.lblX5.Location = new System.Drawing.Point(567, 13);
+            this.lblX5.Location = new System.Drawing.Point(424, 83);
             this.lblX5.Name = "lblX5";
             this.lblX5.Size = new System.Drawing.Size(13, 13);
             this.lblX5.TabIndex = 69;
-            this.lblX5.Text = "5";
+            this.lblX5.Text = "F";
             // 
             // lblX4
             // 
             this.lblX4.AutoSize = true;
-            this.lblX4.Location = new System.Drawing.Point(500, 13);
+            this.lblX4.Location = new System.Drawing.Point(357, 83);
             this.lblX4.Name = "lblX4";
-            this.lblX4.Size = new System.Drawing.Size(13, 13);
+            this.lblX4.Size = new System.Drawing.Size(14, 13);
             this.lblX4.TabIndex = 68;
-            this.lblX4.Text = "4";
+            this.lblX4.Text = "E";
             // 
             // lblY7
             // 
             this.lblY7.AutoSize = true;
-            this.lblY7.Location = new System.Drawing.Point(184, 522);
+            this.lblY7.Location = new System.Drawing.Point(41, 592);
             this.lblY7.Name = "lblY7";
             this.lblY7.Size = new System.Drawing.Size(13, 13);
             this.lblY7.TabIndex = 79;
@@ -967,7 +1060,7 @@
             // lblY6
             // 
             this.lblY6.AutoSize = true;
-            this.lblY6.Location = new System.Drawing.Point(184, 456);
+            this.lblY6.Location = new System.Drawing.Point(41, 526);
             this.lblY6.Name = "lblY6";
             this.lblY6.Size = new System.Drawing.Size(13, 13);
             this.lblY6.TabIndex = 78;
@@ -976,7 +1069,7 @@
             // lblY5
             // 
             this.lblY5.AutoSize = true;
-            this.lblY5.Location = new System.Drawing.Point(184, 390);
+            this.lblY5.Location = new System.Drawing.Point(41, 460);
             this.lblY5.Name = "lblY5";
             this.lblY5.Size = new System.Drawing.Size(13, 13);
             this.lblY5.TabIndex = 77;
@@ -985,7 +1078,7 @@
             // lblY4
             // 
             this.lblY4.AutoSize = true;
-            this.lblY4.Location = new System.Drawing.Point(184, 324);
+            this.lblY4.Location = new System.Drawing.Point(41, 394);
             this.lblY4.Name = "lblY4";
             this.lblY4.Size = new System.Drawing.Size(13, 13);
             this.lblY4.TabIndex = 76;
@@ -994,7 +1087,7 @@
             // lblY3
             // 
             this.lblY3.AutoSize = true;
-            this.lblY3.Location = new System.Drawing.Point(184, 258);
+            this.lblY3.Location = new System.Drawing.Point(41, 328);
             this.lblY3.Name = "lblY3";
             this.lblY3.Size = new System.Drawing.Size(13, 13);
             this.lblY3.TabIndex = 75;
@@ -1003,7 +1096,7 @@
             // lblY2
             // 
             this.lblY2.AutoSize = true;
-            this.lblY2.Location = new System.Drawing.Point(184, 192);
+            this.lblY2.Location = new System.Drawing.Point(41, 262);
             this.lblY2.Name = "lblY2";
             this.lblY2.Size = new System.Drawing.Size(13, 13);
             this.lblY2.TabIndex = 74;
@@ -1012,7 +1105,7 @@
             // lblY1
             // 
             this.lblY1.AutoSize = true;
-            this.lblY1.Location = new System.Drawing.Point(184, 126);
+            this.lblY1.Location = new System.Drawing.Point(41, 196);
             this.lblY1.Name = "lblY1";
             this.lblY1.Size = new System.Drawing.Size(13, 13);
             this.lblY1.TabIndex = 73;
@@ -1021,7 +1114,7 @@
             // lblY0
             // 
             this.lblY0.AutoSize = true;
-            this.lblY0.Location = new System.Drawing.Point(184, 60);
+            this.lblY0.Location = new System.Drawing.Point(41, 130);
             this.lblY0.Name = "lblY0";
             this.lblY0.Size = new System.Drawing.Size(13, 13);
             this.lblY0.TabIndex = 72;
@@ -1029,132 +1122,341 @@
             // 
             // btnStartGame
             // 
-            this.btnStartGame.Location = new System.Drawing.Point(41, 60);
+            this.btnStartGame.Location = new System.Drawing.Point(429, 28);
             this.btnStartGame.Name = "btnStartGame";
-            this.btnStartGame.Size = new System.Drawing.Size(63, 36);
+            this.btnStartGame.Size = new System.Drawing.Size(75, 36);
             this.btnStartGame.TabIndex = 80;
             this.btnStartGame.Text = "Start Game";
             this.btnStartGame.UseVisualStyleBackColor = true;
             this.btnStartGame.Click += new System.EventHandler(this.BtnStartGame_Click);
             // 
-            // label1
+            // btnShowHideLog
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(834, 169);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 81;
-            this.label1.Text = "label1";
+            this.btnShowHideLog.Location = new System.Drawing.Point(518, 28);
+            this.btnShowHideLog.Name = "btnShowHideLog";
+            this.btnShowHideLog.Size = new System.Drawing.Size(74, 37);
+            this.btnShowHideLog.TabIndex = 81;
+            this.btnShowHideLog.Text = "Show Log";
+            this.btnShowHideLog.UseVisualStyleBackColor = true;
+            this.btnShowHideLog.Click += new System.EventHandler(this.btnShowHideLog_Click);
             // 
-            // label2
+            // lblCurrentTurn
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(837, 192);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 82;
-            this.label2.Text = "label2";
+            this.lblCurrentTurn.AutoSize = true;
+            this.lblCurrentTurn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentTurn.Location = new System.Drawing.Point(67, 35);
+            this.lblCurrentTurn.Name = "lblCurrentTurn";
+            this.lblCurrentTurn.Size = new System.Drawing.Size(147, 20);
+            this.lblCurrentTurn.TabIndex = 82;
+            this.lblCurrentTurn.Text = "Current Turn: White";
+            this.lblCurrentTurn.Visible = false;
             // 
-            // label3
+            // whitePlayerGroup
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(814, 336);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 13);
-            this.label3.TabIndex = 83;
-            this.label3.Text = "Blue = White | Red = Black";
+            this.whitePlayerGroup.BackColor = System.Drawing.Color.White;
+            this.whitePlayerGroup.Controls.Add(this.pbWhiteQueen);
+            this.whitePlayerGroup.Controls.Add(this.pbWhiteKing);
+            this.whitePlayerGroup.Controls.Add(this.pbWhitePawn);
+            this.whitePlayerGroup.Controls.Add(this.pbWhiteKnight);
+            this.whitePlayerGroup.Controls.Add(this.pbWhiteRook);
+            this.whitePlayerGroup.Controls.Add(this.pbWhiteBishop);
+            this.whitePlayerGroup.Controls.Add(this.lvWhite);
+            this.whitePlayerGroup.Location = new System.Drawing.Point(614, 106);
+            this.whitePlayerGroup.Name = "whitePlayerGroup";
+            this.whitePlayerGroup.Size = new System.Drawing.Size(158, 258);
+            this.whitePlayerGroup.TabIndex = 83;
+            this.whitePlayerGroup.TabStop = false;
+            this.whitePlayerGroup.Text = "White Player 16/ 16";
+            // 
+            // lvWhite
+            // 
+            this.lvWhite.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvWhite.HideSelection = false;
+            this.lvWhite.Location = new System.Drawing.Point(3, 16);
+            this.lvWhite.Name = "lvWhite";
+            this.lvWhite.Size = new System.Drawing.Size(152, 239);
+            this.lvWhite.TabIndex = 0;
+            this.lvWhite.UseCompatibleStateImageBehavior = false;
+            // 
+            // blackPlayerGroup
+            // 
+            this.blackPlayerGroup.BackColor = System.Drawing.Color.Black;
+            this.blackPlayerGroup.Controls.Add(this.pbBlackQueen);
+            this.blackPlayerGroup.Controls.Add(this.pbBlackKing);
+            this.blackPlayerGroup.Controls.Add(this.pbBlackKnight);
+            this.blackPlayerGroup.Controls.Add(this.pbBlackBishop);
+            this.blackPlayerGroup.Controls.Add(this.pbBlackRook);
+            this.blackPlayerGroup.Controls.Add(this.pbBlackPawn);
+            this.blackPlayerGroup.Controls.Add(this.lvBlack);
+            this.blackPlayerGroup.ForeColor = System.Drawing.Color.White;
+            this.blackPlayerGroup.Location = new System.Drawing.Point(617, 370);
+            this.blackPlayerGroup.Name = "blackPlayerGroup";
+            this.blackPlayerGroup.Size = new System.Drawing.Size(158, 256);
+            this.blackPlayerGroup.TabIndex = 84;
+            this.blackPlayerGroup.TabStop = false;
+            this.blackPlayerGroup.Text = "Black Player 16 / 16";
+            // 
+            // lvBlack
+            // 
+            this.lvBlack.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvBlack.HideSelection = false;
+            this.lvBlack.Location = new System.Drawing.Point(3, 16);
+            this.lvBlack.Name = "lvBlack";
+            this.lvBlack.Size = new System.Drawing.Size(152, 237);
+            this.lvBlack.TabIndex = 0;
+            this.lvBlack.UseCompatibleStateImageBehavior = false;
+            // 
+            // pbBlackPawn
+            // 
+            this.pbBlackPawn.BackColor = System.Drawing.Color.White;
+            this.pbBlackPawn.BackgroundImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbBlackPawn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBlackPawn.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbBlackPawn.Location = new System.Drawing.Point(6, 24);
+            this.pbBlackPawn.Name = "pbBlackPawn";
+            this.pbBlackPawn.Size = new System.Drawing.Size(60, 60);
+            this.pbBlackPawn.TabIndex = 1;
+            this.pbBlackPawn.TabStop = false;
+            // 
+            // pbBlackRook
+            // 
+            this.pbBlackRook.BackColor = System.Drawing.Color.White;
+            this.pbBlackRook.BackgroundImage = global::_2D_Chess.Properties.Resources.BlackRook;
+            this.pbBlackRook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBlackRook.InitialImage = null;
+            this.pbBlackRook.Location = new System.Drawing.Point(92, 24);
+            this.pbBlackRook.Name = "pbBlackRook";
+            this.pbBlackRook.Size = new System.Drawing.Size(60, 60);
+            this.pbBlackRook.TabIndex = 2;
+            this.pbBlackRook.TabStop = false;
+            // 
+            // pbBlackKnight
+            // 
+            this.pbBlackKnight.BackColor = System.Drawing.Color.White;
+            this.pbBlackKnight.BackgroundImage = global::_2D_Chess.Properties.Resources.BlackKnight;
+            this.pbBlackKnight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBlackKnight.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbBlackKnight.Location = new System.Drawing.Point(92, 98);
+            this.pbBlackKnight.Name = "pbBlackKnight";
+            this.pbBlackKnight.Size = new System.Drawing.Size(60, 60);
+            this.pbBlackKnight.TabIndex = 4;
+            this.pbBlackKnight.TabStop = false;
+            // 
+            // pbBlackBishop
+            // 
+            this.pbBlackBishop.BackColor = System.Drawing.Color.White;
+            this.pbBlackBishop.BackgroundImage = global::_2D_Chess.Properties.Resources.BlackBishop;
+            this.pbBlackBishop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBlackBishop.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbBlackBishop.Location = new System.Drawing.Point(6, 98);
+            this.pbBlackBishop.Name = "pbBlackBishop";
+            this.pbBlackBishop.Size = new System.Drawing.Size(60, 60);
+            this.pbBlackBishop.TabIndex = 3;
+            this.pbBlackBishop.TabStop = false;
+            // 
+            // pbBlackQueen
+            // 
+            this.pbBlackQueen.BackColor = System.Drawing.Color.White;
+            this.pbBlackQueen.BackgroundImage = global::_2D_Chess.Properties.Resources.BlackQueen;
+            this.pbBlackQueen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBlackQueen.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbBlackQueen.Location = new System.Drawing.Point(92, 175);
+            this.pbBlackQueen.Name = "pbBlackQueen";
+            this.pbBlackQueen.Size = new System.Drawing.Size(60, 60);
+            this.pbBlackQueen.TabIndex = 6;
+            this.pbBlackQueen.TabStop = false;
+            // 
+            // pbBlackKing
+            // 
+            this.pbBlackKing.BackColor = System.Drawing.Color.White;
+            this.pbBlackKing.BackgroundImage = global::_2D_Chess.Properties.Resources.BlackKing;
+            this.pbBlackKing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbBlackKing.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbBlackKing.Location = new System.Drawing.Point(6, 175);
+            this.pbBlackKing.Name = "pbBlackKing";
+            this.pbBlackKing.Size = new System.Drawing.Size(60, 60);
+            this.pbBlackKing.TabIndex = 5;
+            this.pbBlackKing.TabStop = false;
+            // 
+            // pbWhiteQueen
+            // 
+            this.pbWhiteQueen.BackColor = System.Drawing.Color.White;
+            this.pbWhiteQueen.BackgroundImage = global::_2D_Chess.Properties.Resources.WhiteQueen;
+            this.pbWhiteQueen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWhiteQueen.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbWhiteQueen.Location = new System.Drawing.Point(92, 175);
+            this.pbWhiteQueen.Name = "pbWhiteQueen";
+            this.pbWhiteQueen.Size = new System.Drawing.Size(60, 60);
+            this.pbWhiteQueen.TabIndex = 12;
+            this.pbWhiteQueen.TabStop = false;
+            // 
+            // pbWhiteKing
+            // 
+            this.pbWhiteKing.BackColor = System.Drawing.Color.White;
+            this.pbWhiteKing.BackgroundImage = global::_2D_Chess.Properties.Resources.WhiteKing;
+            this.pbWhiteKing.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWhiteKing.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbWhiteKing.Location = new System.Drawing.Point(6, 175);
+            this.pbWhiteKing.Name = "pbWhiteKing";
+            this.pbWhiteKing.Size = new System.Drawing.Size(60, 60);
+            this.pbWhiteKing.TabIndex = 11;
+            this.pbWhiteKing.TabStop = false;
+            // 
+            // pbWhiteKnight
+            // 
+            this.pbWhiteKnight.BackColor = System.Drawing.Color.White;
+            this.pbWhiteKnight.BackgroundImage = global::_2D_Chess.Properties.Resources.WhiteKnight;
+            this.pbWhiteKnight.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWhiteKnight.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbWhiteKnight.Location = new System.Drawing.Point(92, 98);
+            this.pbWhiteKnight.Name = "pbWhiteKnight";
+            this.pbWhiteKnight.Size = new System.Drawing.Size(60, 60);
+            this.pbWhiteKnight.TabIndex = 10;
+            this.pbWhiteKnight.TabStop = false;
+            // 
+            // pbWhiteBishop
+            // 
+            this.pbWhiteBishop.BackColor = System.Drawing.Color.White;
+            this.pbWhiteBishop.BackgroundImage = global::_2D_Chess.Properties.Resources.WhiteBishop;
+            this.pbWhiteBishop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWhiteBishop.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbWhiteBishop.Location = new System.Drawing.Point(6, 98);
+            this.pbWhiteBishop.Name = "pbWhiteBishop";
+            this.pbWhiteBishop.Size = new System.Drawing.Size(60, 60);
+            this.pbWhiteBishop.TabIndex = 9;
+            this.pbWhiteBishop.TabStop = false;
+            // 
+            // pbWhiteRook
+            // 
+            this.pbWhiteRook.BackColor = System.Drawing.Color.White;
+            this.pbWhiteRook.BackgroundImage = global::_2D_Chess.Properties.Resources.WhiteRook;
+            this.pbWhiteRook.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWhiteRook.InitialImage = null;
+            this.pbWhiteRook.Location = new System.Drawing.Point(92, 24);
+            this.pbWhiteRook.Name = "pbWhiteRook";
+            this.pbWhiteRook.Size = new System.Drawing.Size(60, 60);
+            this.pbWhiteRook.TabIndex = 8;
+            this.pbWhiteRook.TabStop = false;
+            // 
+            // pbWhitePawn
+            // 
+            this.pbWhitePawn.BackColor = System.Drawing.Color.White;
+            this.pbWhitePawn.BackgroundImage = global::_2D_Chess.Properties.Resources.WhitePawn;
+            this.pbWhitePawn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbWhitePawn.InitialImage = global::_2D_Chess.Properties.Resources.BlackPawn;
+            this.pbWhitePawn.Location = new System.Drawing.Point(6, 24);
+            this.pbWhitePawn.Name = "pbWhitePawn";
+            this.pbWhitePawn.Size = new System.Drawing.Size(60, 60);
+            this.pbWhitePawn.TabIndex = 7;
+            this.pbWhitePawn.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 574);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(787, 689);
+            this.Controls.Add(this.lblCurrentTurn);
+            this.Controls.Add(this.blackPlayerGroup);
+            this.Controls.Add(this.whitePlayerGroup);
+            this.Controls.Add(this.btnShowHideLog);
+            this.Controls.Add(this.posA0);
+            this.Controls.Add(this.posB0);
             this.Controls.Add(this.btnStartGame);
+            this.Controls.Add(this.posB5);
+            this.Controls.Add(this.posC0);
+            this.Controls.Add(this.posA5);
             this.Controls.Add(this.lblY7);
+            this.Controls.Add(this.posC5);
+            this.Controls.Add(this.posD0);
+            this.Controls.Add(this.posH4);
             this.Controls.Add(this.lblY6);
+            this.Controls.Add(this.posD5);
+            this.Controls.Add(this.posE0);
+            this.Controls.Add(this.posG4);
             this.Controls.Add(this.lblY5);
+            this.Controls.Add(this.posE5);
+            this.Controls.Add(this.posF0);
+            this.Controls.Add(this.posF4);
             this.Controls.Add(this.lblY4);
+            this.Controls.Add(this.posF5);
+            this.Controls.Add(this.posG0);
+            this.Controls.Add(this.posE4);
             this.Controls.Add(this.lblY3);
+            this.Controls.Add(this.posG5);
+            this.Controls.Add(this.posH0);
+            this.Controls.Add(this.posD4);
             this.Controls.Add(this.lblY2);
+            this.Controls.Add(this.posH5);
+            this.Controls.Add(this.posA1);
+            this.Controls.Add(this.posC4);
             this.Controls.Add(this.lblY1);
+            this.Controls.Add(this.posA6);
+            this.Controls.Add(this.posB1);
+            this.Controls.Add(this.posB4);
             this.Controls.Add(this.lblY0);
+            this.Controls.Add(this.posB6);
+            this.Controls.Add(this.posC1);
+            this.Controls.Add(this.posA4);
             this.Controls.Add(this.lblX7);
+            this.Controls.Add(this.posC6);
+            this.Controls.Add(this.posD1);
+            this.Controls.Add(this.posH3);
             this.Controls.Add(this.lblX6);
+            this.Controls.Add(this.posD6);
+            this.Controls.Add(this.posE1);
+            this.Controls.Add(this.posG3);
             this.Controls.Add(this.lblX5);
+            this.Controls.Add(this.posE6);
+            this.Controls.Add(this.posF1);
+            this.Controls.Add(this.posF3);
             this.Controls.Add(this.lblX4);
+            this.Controls.Add(this.posF6);
+            this.Controls.Add(this.posG1);
+            this.Controls.Add(this.posE3);
             this.Controls.Add(this.lblX3);
+            this.Controls.Add(this.posG6);
+            this.Controls.Add(this.posH1);
+            this.Controls.Add(this.posD3);
             this.Controls.Add(this.lblX2);
+            this.Controls.Add(this.posH6);
+            this.Controls.Add(this.posA2);
+            this.Controls.Add(this.posC3);
             this.Controls.Add(this.lblX1);
+            this.Controls.Add(this.posA7);
+            this.Controls.Add(this.posB2);
+            this.Controls.Add(this.posB3);
             this.Controls.Add(this.lblX0);
-            this.Controls.Add(this.pos77);
-            this.Controls.Add(this.pos67);
-            this.Controls.Add(this.pos57);
-            this.Controls.Add(this.pos47);
-            this.Controls.Add(this.pos37);
-            this.Controls.Add(this.pos27);
-            this.Controls.Add(this.pos17);
-            this.Controls.Add(this.pos07);
-            this.Controls.Add(this.pos76);
-            this.Controls.Add(this.pos66);
-            this.Controls.Add(this.pos56);
-            this.Controls.Add(this.pos46);
-            this.Controls.Add(this.pos36);
-            this.Controls.Add(this.pos26);
-            this.Controls.Add(this.pos16);
-            this.Controls.Add(this.pos06);
-            this.Controls.Add(this.pos75);
-            this.Controls.Add(this.pos65);
-            this.Controls.Add(this.pos55);
-            this.Controls.Add(this.pos45);
-            this.Controls.Add(this.pos35);
-            this.Controls.Add(this.pos25);
-            this.Controls.Add(this.pos15);
-            this.Controls.Add(this.pos05);
-            this.Controls.Add(this.pos74);
-            this.Controls.Add(this.pos64);
-            this.Controls.Add(this.pos54);
-            this.Controls.Add(this.pos44);
-            this.Controls.Add(this.pos34);
-            this.Controls.Add(this.pos24);
-            this.Controls.Add(this.pos14);
-            this.Controls.Add(this.pos04);
-            this.Controls.Add(this.pos73);
-            this.Controls.Add(this.pos63);
-            this.Controls.Add(this.pos53);
-            this.Controls.Add(this.pos43);
-            this.Controls.Add(this.pos33);
-            this.Controls.Add(this.pos23);
-            this.Controls.Add(this.pos13);
-            this.Controls.Add(this.pos03);
-            this.Controls.Add(this.pos72);
-            this.Controls.Add(this.pos62);
-            this.Controls.Add(this.pos52);
-            this.Controls.Add(this.pos42);
-            this.Controls.Add(this.pos32);
-            this.Controls.Add(this.pos22);
-            this.Controls.Add(this.pos12);
-            this.Controls.Add(this.pos02);
-            this.Controls.Add(this.pos71);
-            this.Controls.Add(this.pos61);
-            this.Controls.Add(this.pos51);
-            this.Controls.Add(this.pos41);
-            this.Controls.Add(this.pos31);
-            this.Controls.Add(this.pos21);
-            this.Controls.Add(this.pos11);
-            this.Controls.Add(this.pos01);
-            this.Controls.Add(this.pos70);
-            this.Controls.Add(this.pos60);
-            this.Controls.Add(this.pos50);
-            this.Controls.Add(this.pos40);
-            this.Controls.Add(this.pos30);
-            this.Controls.Add(this.pos20);
-            this.Controls.Add(this.pos10);
-            this.Controls.Add(this.pos00);
+            this.Controls.Add(this.posB7);
+            this.Controls.Add(this.posC2);
+            this.Controls.Add(this.posA3);
+            this.Controls.Add(this.posH7);
+            this.Controls.Add(this.posC7);
+            this.Controls.Add(this.posD2);
+            this.Controls.Add(this.posH2);
+            this.Controls.Add(this.posG7);
+            this.Controls.Add(this.posD7);
+            this.Controls.Add(this.posE2);
+            this.Controls.Add(this.posG2);
+            this.Controls.Add(this.posF7);
+            this.Controls.Add(this.posE7);
+            this.Controls.Add(this.posF2);
+            this.MinimumSize = new System.Drawing.Size(690, 600);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.whitePlayerGroup.ResumeLayout(false);
+            this.blackPlayerGroup.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackPawn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackRook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackKnight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackBishop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackQueen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbBlackKing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteQueen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteKing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteKnight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteBishop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhiteRook)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWhitePawn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1162,70 +1464,70 @@
 
         #endregion
 
-        private System.Windows.Forms.Button pos00;
-        private System.Windows.Forms.Button pos10;
-        private System.Windows.Forms.Button pos30;
-        private System.Windows.Forms.Button pos20;
-        private System.Windows.Forms.Button pos70;
-        private System.Windows.Forms.Button pos60;
-        private System.Windows.Forms.Button pos50;
-        private System.Windows.Forms.Button pos40;
-        private System.Windows.Forms.Button pos71;
-        private System.Windows.Forms.Button pos61;
-        private System.Windows.Forms.Button pos51;
-        private System.Windows.Forms.Button pos41;
-        private System.Windows.Forms.Button pos31;
-        private System.Windows.Forms.Button pos21;
-        private System.Windows.Forms.Button pos11;
-        private System.Windows.Forms.Button pos01;
-        private System.Windows.Forms.Button pos72;
-        private System.Windows.Forms.Button pos62;
-        private System.Windows.Forms.Button pos52;
-        private System.Windows.Forms.Button pos42;
-        private System.Windows.Forms.Button pos32;
-        private System.Windows.Forms.Button pos22;
-        private System.Windows.Forms.Button pos12;
-        private System.Windows.Forms.Button pos02;
-        private System.Windows.Forms.Button pos73;
-        private System.Windows.Forms.Button pos63;
-        private System.Windows.Forms.Button pos53;
-        private System.Windows.Forms.Button pos43;
-        private System.Windows.Forms.Button pos33;
-        private System.Windows.Forms.Button pos23;
-        private System.Windows.Forms.Button pos13;
-        private System.Windows.Forms.Button pos03;
-        private System.Windows.Forms.Button pos74;
-        private System.Windows.Forms.Button pos64;
-        private System.Windows.Forms.Button pos54;
-        private System.Windows.Forms.Button pos44;
-        private System.Windows.Forms.Button pos34;
-        private System.Windows.Forms.Button pos24;
-        private System.Windows.Forms.Button pos14;
-        private System.Windows.Forms.Button pos04;
-        private System.Windows.Forms.Button pos75;
-        private System.Windows.Forms.Button pos65;
-        private System.Windows.Forms.Button pos55;
-        private System.Windows.Forms.Button pos45;
-        private System.Windows.Forms.Button pos35;
-        private System.Windows.Forms.Button pos25;
-        private System.Windows.Forms.Button pos15;
-        private System.Windows.Forms.Button pos05;
-        private System.Windows.Forms.Button pos76;
-        private System.Windows.Forms.Button pos66;
-        private System.Windows.Forms.Button pos56;
-        private System.Windows.Forms.Button pos46;
-        private System.Windows.Forms.Button pos36;
-        private System.Windows.Forms.Button pos26;
-        private System.Windows.Forms.Button pos16;
-        private System.Windows.Forms.Button pos06;
-        private System.Windows.Forms.Button pos77;
-        private System.Windows.Forms.Button pos67;
-        private System.Windows.Forms.Button pos57;
-        private System.Windows.Forms.Button pos47;
-        private System.Windows.Forms.Button pos27;
-        private System.Windows.Forms.Button pos17;
-        private System.Windows.Forms.Button pos07;
-        private System.Windows.Forms.Button pos37;
+        private System.Windows.Forms.Button posA0;
+        private System.Windows.Forms.Button posB0;
+        private System.Windows.Forms.Button posD0;
+        private System.Windows.Forms.Button posC0;
+        private System.Windows.Forms.Button posH0;
+        private System.Windows.Forms.Button posG0;
+        private System.Windows.Forms.Button posF0;
+        private System.Windows.Forms.Button posE0;
+        private System.Windows.Forms.Button posH1;
+        private System.Windows.Forms.Button posG1;
+        private System.Windows.Forms.Button posF1;
+        private System.Windows.Forms.Button posE1;
+        private System.Windows.Forms.Button posD1;
+        private System.Windows.Forms.Button posC1;
+        private System.Windows.Forms.Button posB1;
+        private System.Windows.Forms.Button posA1;
+        private System.Windows.Forms.Button posH2;
+        private System.Windows.Forms.Button posG2;
+        private System.Windows.Forms.Button posF2;
+        private System.Windows.Forms.Button posE2;
+        private System.Windows.Forms.Button posD2;
+        private System.Windows.Forms.Button posC2;
+        private System.Windows.Forms.Button posB2;
+        private System.Windows.Forms.Button posA2;
+        private System.Windows.Forms.Button posH3;
+        private System.Windows.Forms.Button posG3;
+        private System.Windows.Forms.Button posF3;
+        private System.Windows.Forms.Button posE3;
+        private System.Windows.Forms.Button posD3;
+        private System.Windows.Forms.Button posC3;
+        private System.Windows.Forms.Button posB3;
+        private System.Windows.Forms.Button posA3;
+        private System.Windows.Forms.Button posH4;
+        private System.Windows.Forms.Button posG4;
+        private System.Windows.Forms.Button posF4;
+        private System.Windows.Forms.Button posE4;
+        private System.Windows.Forms.Button posD4;
+        private System.Windows.Forms.Button posC4;
+        private System.Windows.Forms.Button posB4;
+        private System.Windows.Forms.Button posA4;
+        private System.Windows.Forms.Button posH5;
+        private System.Windows.Forms.Button posG5;
+        private System.Windows.Forms.Button posF5;
+        private System.Windows.Forms.Button posE5;
+        private System.Windows.Forms.Button posD5;
+        private System.Windows.Forms.Button posC5;
+        private System.Windows.Forms.Button posB5;
+        private System.Windows.Forms.Button posA5;
+        private System.Windows.Forms.Button posH6;
+        private System.Windows.Forms.Button posG6;
+        private System.Windows.Forms.Button posF6;
+        private System.Windows.Forms.Button posE6;
+        private System.Windows.Forms.Button posD6;
+        private System.Windows.Forms.Button posC6;
+        private System.Windows.Forms.Button posB6;
+        private System.Windows.Forms.Button posA6;
+        private System.Windows.Forms.Button posH7;
+        private System.Windows.Forms.Button posG7;
+        private System.Windows.Forms.Button posF7;
+        private System.Windows.Forms.Button posE7;
+        private System.Windows.Forms.Button posC7;
+        private System.Windows.Forms.Button posB7;
+        private System.Windows.Forms.Button posA7;
+        private System.Windows.Forms.Button posD7;
         private System.Windows.Forms.Label lblX0;
         private System.Windows.Forms.Label lblX1;
         private System.Windows.Forms.Label lblX3;
@@ -1243,9 +1545,24 @@
         private System.Windows.Forms.Label lblY1;
         private System.Windows.Forms.Label lblY0;
         private System.Windows.Forms.Button btnStartGame;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnShowHideLog;
+        private System.Windows.Forms.Label lblCurrentTurn;
+        private System.Windows.Forms.GroupBox whitePlayerGroup;
+        private System.Windows.Forms.GroupBox blackPlayerGroup;
+        private System.Windows.Forms.ListView lvWhite;
+        private System.Windows.Forms.ListView lvBlack;
+        private System.Windows.Forms.PictureBox pbBlackPawn;
+        private System.Windows.Forms.PictureBox pbWhiteQueen;
+        private System.Windows.Forms.PictureBox pbWhiteKing;
+        private System.Windows.Forms.PictureBox pbWhitePawn;
+        private System.Windows.Forms.PictureBox pbWhiteKnight;
+        private System.Windows.Forms.PictureBox pbWhiteRook;
+        private System.Windows.Forms.PictureBox pbWhiteBishop;
+        private System.Windows.Forms.PictureBox pbBlackQueen;
+        private System.Windows.Forms.PictureBox pbBlackKing;
+        private System.Windows.Forms.PictureBox pbBlackKnight;
+        private System.Windows.Forms.PictureBox pbBlackBishop;
+        private System.Windows.Forms.PictureBox pbBlackRook;
     }
 }
 
